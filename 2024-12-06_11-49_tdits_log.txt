@@ -1,0 +1,819 @@
+ [INFO]  Server configured
+ [INFO]  Waiting for connection...
+ [INFO]  [XML Import] No error
+ [INFO]  Nodes in use:
+ [INFO]         N0001
+ [INFO]         N0002
+ [INFO]         N0003
+ [INFO]         N0004
+ [INFO]         N0005
+ [INFO]         N0006
+ [INFO]         N0007
+ [INFO]         N0008
+ [INFO]         N0009
+ [INFO]         N0010
+ [INFO]         N0011
+ [INFO]         N0012
+ [INFO]         N0013
+ [INFO]         N0014
+ [INFO]         N0015
+ [INFO]         N0016
+ [INFO]         N0017
+ [INFO]         N0018
+ [INFO]         N0022
+ [INFO]         N0023
+ [INFO]         N0024
+ [INFO]         N0030
+ [INFO]         N0032
+ [INFO]         N0033
+ [INFO]         N0034
+ [INFO]         N0035
+ [INFO]         N0036
+ [INFO]         N0037
+ [INFO]         N0038
+ [INFO]         N0039
+ [INFO]         N0040
+ [INFO]         N0041
+ [INFO]         N0042
+ [INFO]         N0043
+ [INFO]         N0044
+ [INFO]         N0045
+ [INFO]         N0046
+ [INFO]         N0048
+ [INFO]         N0049
+ [INFO]         N0050
+ [INFO]         N0051
+ [INFO]         N0052
+ [INFO]         N0055
+ [INFO]         N0056
+ [INFO]         N0057
+ [INFO]         N0058
+ [INFO]         N0060
+ [INFO]         N0061
+ [INFO]         Q0019
+ [INFO]         Q0021
+ [INFO]         Q0026
+ [INFO]         Q0029
+ [INFO]         Q0053
+ [INFO]         S0020
+ [INFO]         S0025
+ [INFO]         S0027
+ [INFO]         S0028
+ [INFO]         S0047
+ [INFO]         S0054
+ [INFO]         S0059
+ [INFO]  Edges in use:
+ [INFO]         N0001 --- N0002
+ [INFO]         N0001 --- N0003
+ [INFO]         N0002 --- N0014
+ [INFO]         N0003 --- N0004
+ [INFO]         N0003 --- N0005
+ [INFO]         N0004 --- N0008
+ [INFO]         N0005 --- N0006
+ [INFO]         N0005 --- N0007
+ [INFO]         N0006 --- N0009
+ [INFO]         N0007 --- N0010
+ [INFO]         N0007 --- N0012
+ [INFO]         N0008 --- N0009
+ [INFO]         N0009 --- N0011
+ [INFO]         N0010 --- N0011
+ [INFO]         N0011 --- N0013
+ [INFO]         N0012 --- N0013
+ [INFO]         N0013 --- N0015
+ [INFO]         N0013 --- N0018
+ [INFO]         N0013 --- N0057
+ [INFO]         N0014 --- N0008
+ [INFO]         N0015 --- N0016
+ [INFO]         N0015 --- N0050
+ [INFO]         N0016 --- N0017
+ [INFO]         N0016 --- N0022
+ [INFO]         N0016 --- N0046
+ [INFO]         N0017 --- S0020
+ [INFO]         N0018 --- Q0019
+ [INFO]         N0022 --- N0056
+ [INFO]         N0023 --- N0024
+ [INFO]         N0024 --- S0025
+ [INFO]         N0030 --- N0032
+ [INFO]         N0032 --- S0028
+ [INFO]         N0033 --- N0001
+ [INFO]         N0034 --- N0014
+ [INFO]         N0034 --- N0033
+ [INFO]         N0035 --- N0036
+ [INFO]         N0036 --- N0034
+ [INFO]         N0037 --- S0028
+ [INFO]         N0038 --- N0037
+ [INFO]         N0039 --- N0040
+ [INFO]         N0040 --- N0041
+ [INFO]         N0041 --- N0035
+ [INFO]         N0042 --- N0039
+ [INFO]         N0043 --- N0052
+ [INFO]         N0044 --- S0047
+ [INFO]         N0045 --- N0016
+ [INFO]         N0045 --- N0055
+ [INFO]         N0046 --- S0054
+ [INFO]         N0048 --- N0043
+ [INFO]         N0049 --- N0038
+ [INFO]         N0050 --- N0051
+ [INFO]         N0051 --- N0049
+ [INFO]         N0052 --- N0044
+ [INFO]         N0055 --- N0046
+ [INFO]         N0056 --- N0023
+ [INFO]         N0057 --- N0058
+ [INFO]         N0058 --- S0059
+ [INFO]         N0060 --- N0061
+ [INFO]         N0061 --- Q0021
+ [INFO]         Q0019 --- N0017
+ [INFO]         Q0019 --- N0022
+ [INFO]         Q0021 --- N0023
+ [INFO]         Q0026 --- S0027
+ [INFO]         Q0029 --- N0035
+ [INFO]         Q0053 --- N0045
+ [INFO]         S0020 --- Q0021
+ [INFO]         S0025 --- N0030
+ [INFO]         S0025 --- N0042
+ [INFO]         S0025 --- Q0026
+ [INFO]         S0027 --- N0032
+ [INFO]         S0028 --- Q0029
+ [INFO]         S0047 --- Q0053
+ [INFO]         S0054 --- N0048
+ [INFO]         S0059 --- N0060
+ [INFO]  Agents in use:
+ [INFO]         Vehicle-01002
+ [INFO]         Vehicle-01001
+ [DEBUG] ==== ==== ==== Step 0 ==== ==== ====
+ [INFO]  sorting agents by dependencies...  [DEBUG] agent Vehicle-01002: time till blocked: -1; blocking agent: NULL
+ [DEBUG] agent Vehicle-01001: time till blocked: -1; blocking agent: NULL
+done
+ [INFO]  Vehicle-01002 is waiting.
+ [DEBUG] remaining action time before step: -1 ms
+ [DEBUG] consumed time: 0 ms
+ [INFO]  Vehicle-01001 is waiting.
+ [DEBUG] remaining action time before step: -1 ms
+ [DEBUG] consumed time: 0 ms
+ [DEBUG] ==== ==== ==== Step 1 ==== ==== ====
+ [INFO]  sorting agents by dependencies...  [DEBUG] agent Vehicle-01002: time till blocked: -1; blocking agent: NULL
+ [DEBUG] agent Vehicle-01001: time till blocked: -1; blocking agent: NULL
+done
+ [INFO]  Vehicle-01002 is waiting.
+ [DEBUG] remaining action time before step: -1000 ms
+ [DEBUG] consumed time: 0 ms
+ [INFO]  Vehicle-01001 is waiting.
+ [DEBUG] remaining action time before step: -1000 ms
+ [DEBUG] consumed time: 0 ms
+ [DEBUG] ==== ==== ==== Step 2 ==== ==== ====
+ [INFO]  sorting agents by dependencies...  [DEBUG] agent Vehicle-01002: time till blocked: -1; blocking agent: NULL
+ [DEBUG] agent Vehicle-01001: time till blocked: -1; blocking agent: NULL
+done
+ [INFO]  Vehicle-01002 is waiting.
+ [DEBUG] remaining action time before step: -1000 ms
+ [DEBUG] consumed time: 0 ms
+ [INFO]  Vehicle-01001 is waiting.
+ [DEBUG] remaining action time before step: -1000 ms
+ [DEBUG] consumed time: 0 ms
+ [DEBUG] ==== ==== ==== Step 3 ==== ==== ====
+ [INFO]  sorting agents by dependencies...  [DEBUG] agent Vehicle-01002: time till blocked: -1; blocking agent: NULL
+ [DEBUG] agent Vehicle-01001: time till blocked: -1; blocking agent: NULL
+done
+ [INFO]  Vehicle-01002 is waiting.
+ [DEBUG] remaining action time before step: -1000 ms
+ [DEBUG] consumed time: 0 ms
+ [INFO]  Vehicle-01001 is waiting.
+ [DEBUG] remaining action time before step: -1000 ms
+ [DEBUG] consumed time: 0 ms
+ [DEBUG] ==== ==== ==== Step 4 ==== ==== ====
+ [INFO]  sorting agents by dependencies...  [DEBUG] agent Vehicle-01002: time till blocked: -1; blocking agent: NULL
+ [DEBUG] agent Vehicle-01001: time till blocked: -1; blocking agent: NULL
+done
+ [INFO]  Vehicle-01002 is waiting.
+ [DEBUG] remaining action time before step: -1000 ms
+ [DEBUG] consumed time: 0 ms
+ [INFO]  Vehicle-01001 is waiting.
+ [DEBUG] remaining action time before step: -1000 ms
+ [DEBUG] consumed time: 0 ms
+ [DEBUG] ==== ==== ==== Step 5 ==== ==== ====
+ [INFO]  sorting agents by dependencies...  [DEBUG] agent Vehicle-01002: time till blocked: -1; blocking agent: NULL
+ [DEBUG] agent Vehicle-01001: time till blocked: -1; blocking agent: NULL
+done
+ [INFO]  Vehicle-01002 is waiting.
+ [DEBUG] remaining action time before step: -1000 ms
+ [DEBUG] consumed time: 0 ms
+ [INFO]  Vehicle-01001 is waiting.
+ [DEBUG] remaining action time before step: -1000 ms
+ [DEBUG] consumed time: 0 ms
+ [DEBUG] Connection accepted
+ [DEBUG] Message from client: connect;Vehicle-01001
+ [DEBUG] found: Vehicle-01001
+ [DEBUG] Vehicle-01001: Sending: conn_ack
+ [DEBUG] Vehicle-01001: Sending: position;N0002
+ [DEBUG] Connection accepted
+ [DEBUG] Message from client: connect;Vehicle-01002
+ [DEBUG] found: Vehicle-01002
+ [DEBUG] Vehicle-01002: Sending: conn_ack
+ [DEBUG] Vehicle-01002: Sending: position;N0001
+ [DEBUG] ==== ==== ==== Step 6 ==== ==== ====
+ [INFO]  sorting agents by dependencies...  [DEBUG] agent Vehicle-01002: time till blocked: -1; blocking agent: NULL
+ [DEBUG] agent Vehicle-01001: time till blocked: -1; blocking agent: NULL
+done
+ [INFO]  Vehicle-01002 is waiting.
+ [DEBUG] remaining action time before step: -1000 ms
+ [DEBUG] consumed time: 0 ms
+ [INFO]  Vehicle-01001 is waiting.
+ [DEBUG] remaining action time before step: -1000 ms
+ [DEBUG] consumed time: 0 ms
+ [DEBUG] ==== ==== ==== Step 7 ==== ==== ====
+ [INFO]  sorting agents by dependencies...  [DEBUG] agent Vehicle-01002: time till blocked: -1; blocking agent: NULL
+ [DEBUG] agent Vehicle-01001: time till blocked: -1; blocking agent: NULL
+done
+ [INFO]  Vehicle-01002 is waiting.
+ [DEBUG] remaining action time before step: -1000 ms
+ [DEBUG] consumed time: 0 ms
+ [INFO]  Vehicle-01001 is waiting.
+ [DEBUG] remaining action time before step: -1000 ms
+ [DEBUG] consumed time: 0 ms
+ [DEBUG] ==== ==== ==== Step 8 ==== ==== ====
+ [INFO]  sorting agents by dependencies...  [DEBUG] agent Vehicle-01002: time till blocked: -1; blocking agent: NULL
+ [DEBUG] agent Vehicle-01001: time till blocked: -1; blocking agent: NULL
+done
+ [INFO]  Vehicle-01002 is waiting.
+ [DEBUG] remaining action time before step: -1000 ms
+ [DEBUG] consumed time: 0 ms
+ [INFO]  Vehicle-01001 is waiting.
+ [DEBUG] remaining action time before step: -1000 ms
+ [DEBUG] consumed time: 0 ms
+ [DEBUG] ==== ==== ==== Step 9 ==== ==== ====
+ [INFO]  sorting agents by dependencies...  [DEBUG] agent Vehicle-01002: time till blocked: -1; blocking agent: NULL
+ [DEBUG] agent Vehicle-01001: time till blocked: -1; blocking agent: NULL
+done
+ [INFO]  Vehicle-01002 is waiting.
+ [DEBUG] remaining action time before step: -1000 ms
+ [DEBUG] consumed time: 0 ms
+ [INFO]  Vehicle-01001 is waiting.
+ [DEBUG] remaining action time before step: -1000 ms
+ [DEBUG] consumed time: 0 ms
+ [DEBUG] ==== ==== ==== Step 10 ==== ==== ====
+ [INFO]  sorting agents by dependencies...  [DEBUG] agent Vehicle-01002: time till blocked: -1; blocking agent: NULL
+ [DEBUG] agent Vehicle-01001: time till blocked: -1; blocking agent: NULL
+done
+ [INFO]  Vehicle-01002 is waiting.
+ [DEBUG] remaining action time before step: -1000 ms
+ [DEBUG] consumed time: 0 ms
+ [INFO]  Vehicle-01001 is waiting.
+ [DEBUG] remaining action time before step: -1000 ms
+ [DEBUG] consumed time: 0 ms
+ [DEBUG] ==== ==== ==== Step 11 ==== ==== ====
+ [INFO]  sorting agents by dependencies...  [DEBUG] agent Vehicle-01002: time till blocked: -1; blocking agent: NULL
+ [DEBUG] agent Vehicle-01001: time till blocked: -1; blocking agent: NULL
+done
+ [INFO]  Vehicle-01002 is waiting.
+ [DEBUG] remaining action time before step: -1000 ms
+ [DEBUG] consumed time: 0 ms
+ [INFO]  Vehicle-01001 is waiting.
+ [DEBUG] remaining action time before step: -1000 ms
+ [DEBUG] consumed time: 0 ms
+ [DEBUG] ==== ==== ==== Step 12 ==== ==== ====
+ [INFO]  sorting agents by dependencies...  [DEBUG] agent Vehicle-01002: time till blocked: -1; blocking agent: NULL
+ [DEBUG] agent Vehicle-01001: time till blocked: -1; blocking agent: NULL
+done
+ [INFO]  Vehicle-01002 is waiting.
+ [DEBUG] remaining action time before step: -1000 ms
+ [DEBUG] consumed time: 0 ms
+ [INFO]  Vehicle-01001 is waiting.
+ [DEBUG] remaining action time before step: -1000 ms
+ [DEBUG] consumed time: 0 ms
+ [DEBUG] ==== ==== ==== Step 13 ==== ==== ====
+ [INFO]  sorting agents by dependencies...  [DEBUG] agent Vehicle-01002: time till blocked: -1; blocking agent: NULL
+ [DEBUG] agent Vehicle-01001: time till blocked: -1; blocking agent: NULL
+done
+ [INFO]  Vehicle-01002 is waiting.
+ [DEBUG] remaining action time before step: -1000 ms
+ [DEBUG] consumed time: 0 ms
+ [INFO]  Vehicle-01001 is waiting.
+ [DEBUG] remaining action time before step: -1000 ms
+ [DEBUG] consumed time: 0 ms
+ [DEBUG] ==== ==== ==== Step 14 ==== ==== ====
+ [INFO]  sorting agents by dependencies...  [DEBUG] agent Vehicle-01002: time till blocked: -1; blocking agent: NULL
+ [DEBUG] agent Vehicle-01001: time till blocked: -1; blocking agent: NULL
+done
+ [INFO]  Vehicle-01002 is waiting.
+ [DEBUG] remaining action time before step: -1000 ms
+ [DEBUG] consumed time: 0 ms
+ [INFO]  Vehicle-01001 is waiting.
+ [DEBUG] remaining action time before step: -1000 ms
+ [DEBUG] consumed time: 0 ms
+ [DEBUG] Message from client: route;Vehicle-01001;[N0002, N0014, N0008, N0009, N0011, N0013, N0018, Q0019, N0017, S0020, Q0021]
+ [DEBUG] ==== ==== ==== Step 15 ==== ==== ====
+ [INFO]  sorting agents by dependencies...  [DEBUG] agent Vehicle-01002: time till blocked: -1; blocking agent: NULL
+ [DEBUG] agent Vehicle-01001: time till blocked: -1; blocking agent: NULL
+done
+ [INFO]  Vehicle-01002 is waiting.
+ [DEBUG] remaining action time before step: -1000 ms
+ [DEBUG] consumed time: 0 ms
+ [INFO]  Vehicle-01001 is waiting.
+ [DEBUG] remaining action time before step: -1000 ms
+ [DEBUG] consumed time: 0 ms
+ [DEBUG] remaining action time before step: 4000 ms
+ [DEBUG] consumed time: 3000 ms
+ [DEBUG] ==== ==== ==== Step 16 ==== ==== ====
+ [INFO]  sorting agents by dependencies...  [DEBUG] agent Vehicle-01002: time till blocked: -1; blocking agent: NULL
+ [DEBUG] agent Vehicle-01001: time till blocked: 4267; blocking agent: NULL
+done
+ [INFO]  Vehicle-01002 is waiting.
+ [DEBUG] remaining action time before step: -1000 ms
+ [DEBUG] consumed time: 0 ms
+ [INFO]  Vehicle-01001 is turning.
+ [DEBUG] remaining action time before step: 1000 ms
+ [DEBUG] consumed time: 1000 ms
+ [DEBUG] new action: Move (starting at node N0002 on edge N0002 --- N0014)
+ [DEBUG] remaining action time before step: 4267 ms
+ [DEBUG] time=9337;move;vehicle=Vehicle-01001;edge=N0002 --- N0014;distance_ahead=2.267000
+ [DEBUG] consumed time: 2000 ms
+ [DEBUG] ==== ==== ==== Step 17 ==== ==== ====
+ [INFO]  sorting agents by dependencies...  [DEBUG] agent Vehicle-01002: time till blocked: -1; blocking agent: NULL
+ [DEBUG] agent Vehicle-01001: time till blocked: 6267; blocking agent: NULL
+done
+ [INFO]  Vehicle-01002 is waiting.
+ [DEBUG] remaining action time before step: -1000 ms
+ [DEBUG] consumed time: 0 ms
+ [INFO]  Vehicle-01001 is moving.
+ [DEBUG] remaining action time before step: 2267 ms
+ [DEBUG] time=9811;move;vehicle=Vehicle-01001;edge=N0002 --- N0014;distance_ahead=0.000000
+ [DEBUG] consumed time: 2267 ms
+ [DEBUG] remaining action time before step: 4000 ms
+ [DEBUG] consumed time: 733 ms
+ [DEBUG] Vehicle-01001: Sending: position;N0014
+ [DEBUG] ==== ==== ==== Step 18 ==== ==== ====
+ [INFO]  sorting agents by dependencies...  [DEBUG] agent Vehicle-01002: time till blocked: -1; blocking agent: NULL
+ [DEBUG] agent Vehicle-01001: time till blocked: 3267; blocking agent: NULL
+done
+ [INFO]  Vehicle-01002 is waiting.
+ [DEBUG] remaining action time before step: -1000 ms
+ [DEBUG] consumed time: 0 ms
+ [INFO]  Vehicle-01001 is turning.
+ [DEBUG] remaining action time before step: 3267 ms
+ [DEBUG] consumed time: 3000 ms
+ [DEBUG] ==== ==== ==== Step 19 ==== ==== ====
+ [INFO]  sorting agents by dependencies...  [DEBUG] agent Vehicle-01002: time till blocked: -1; blocking agent: NULL
+ [DEBUG] agent Vehicle-01001: time till blocked: 4896; blocking agent: NULL
+done
+ [INFO]  Vehicle-01002 is waiting.
+ [DEBUG] remaining action time before step: -1000 ms
+ [DEBUG] consumed time: 0 ms
+ [INFO]  Vehicle-01001 is turning.
+ [DEBUG] remaining action time before step: 267 ms
+ [DEBUG] consumed time: 267 ms
+ [DEBUG] new action: Move (starting at node N0014 on edge N0014 --- N0008)
+ [DEBUG] remaining action time before step: 5629 ms
+ [DEBUG] time=10734;move;vehicle=Vehicle-01001;edge=N0014 --- N0008;distance_ahead=2.896000
+ [DEBUG] consumed time: 2733 ms
+ [DEBUG] ==== ==== ==== Step 20 ==== ==== ====
+ [INFO]  sorting agents by dependencies...  [DEBUG] agent Vehicle-01002: time till blocked: -1; blocking agent: NULL
+ [DEBUG] agent Vehicle-01001: time till blocked: 6896; blocking agent: NULL
+done
+ [INFO]  Vehicle-01002 is waiting.
+ [DEBUG] remaining action time before step: -1000 ms
+ [DEBUG] consumed time: 0 ms
+ [INFO]  Vehicle-01001 is moving.
+ [DEBUG] remaining action time before step: 2896 ms
+ [DEBUG] time=11130;move;vehicle=Vehicle-01001;edge=N0014 --- N0008;distance_ahead=0.000000
+ [DEBUG] consumed time: 2896 ms
+ [DEBUG] remaining action time before step: 4000 ms
+ [DEBUG] consumed time: 104 ms
+ [DEBUG] Vehicle-01001: Sending: position;N0008
+ [DEBUG] ==== ==== ==== Step 21 ==== ==== ====
+ [INFO]  sorting agents by dependencies...  [DEBUG] agent Vehicle-01002: time till blocked: -1; blocking agent: NULL
+ [DEBUG] agent Vehicle-01001: time till blocked: 3896; blocking agent: NULL
+done
+ [INFO]  Vehicle-01002 is waiting.
+ [DEBUG] remaining action time before step: -1000 ms
+ [DEBUG] consumed time: 0 ms
+ [INFO]  Vehicle-01001 is turning.
+ [DEBUG] remaining action time before step: 3896 ms
+ [DEBUG] consumed time: 3000 ms
+ [DEBUG] ==== ==== ==== Step 22 ==== ==== ====
+ [INFO]  sorting agents by dependencies...  [DEBUG] agent Vehicle-01002: time till blocked: -1; blocking agent: NULL
+ [DEBUG] agent Vehicle-01001: time till blocked: 5525; blocking agent: NULL
+done
+ [INFO]  Vehicle-01002 is waiting.
+ [DEBUG] remaining action time before step: -1000 ms
+ [DEBUG] consumed time: 0 ms
+ [INFO]  Vehicle-01001 is turning.
+ [DEBUG] remaining action time before step: 896 ms
+ [DEBUG] consumed time: 896 ms
+ [DEBUG] new action: Move (starting at node N0008 on edge N0008 --- N0009)
+ [DEBUG] remaining action time before step: 5629 ms
+ [DEBUG] time=12107;move;vehicle=Vehicle-01001;edge=N0008 --- N0009;distance_ahead=3.525000
+ [DEBUG] consumed time: 2104 ms
+ [DEBUG] ==== ==== ==== Step 23 ==== ==== ====
+ [INFO]  sorting agents by dependencies...  [DEBUG] agent Vehicle-01002: time till blocked: -1; blocking agent: NULL
+ [DEBUG] agent Vehicle-01001: time till blocked: 3525; blocking agent: NULL
+done
+ [INFO]  Vehicle-01002 is waiting.
+ [DEBUG] remaining action time before step: -1000 ms
+ [DEBUG] consumed time: 0 ms
+ [INFO]  Vehicle-01001 is moving.
+ [DEBUG] remaining action time before step: 3525 ms
+ [DEBUG] time=12425;move;vehicle=Vehicle-01001;edge=N0008 --- N0009;distance_ahead=0.525000
+ [DEBUG] consumed time: 3000 ms
+ [DEBUG] ==== ==== ==== Step 24 ==== ==== ====
+ [INFO]  sorting agents by dependencies...  [DEBUG] agent Vehicle-01002: time till blocked: -1; blocking agent: NULL
+ [DEBUG] agent Vehicle-01001: time till blocked: 4525; blocking agent: NULL
+done
+ [INFO]  Vehicle-01002 is waiting.
+ [DEBUG] remaining action time before step: -1000 ms
+ [DEBUG] consumed time: 0 ms
+ [INFO]  Vehicle-01001 is moving.
+ [DEBUG] remaining action time before step: 525 ms
+ [DEBUG] time=12904;move;vehicle=Vehicle-01001;edge=N0008 --- N0009;distance_ahead=0.000000
+ [DEBUG] consumed time: 525 ms
+ [DEBUG] remaining action time before step: 4000 ms
+ [DEBUG] consumed time: 2475 ms
+ [DEBUG] Vehicle-01001: Sending: position;N0009
+ [DEBUG] ==== ==== ==== Step 25 ==== ==== ====
+ [INFO]  sorting agents by dependencies...  [DEBUG] agent Vehicle-01002: time till blocked: -1; blocking agent: NULL
+ [DEBUG] agent Vehicle-01001: time till blocked: 6154; blocking agent: NULL
+done
+ [INFO]  Vehicle-01002 is waiting.
+ [DEBUG] remaining action time before step: -1000 ms
+ [DEBUG] consumed time: 0 ms
+ [INFO]  Vehicle-01001 is turning.
+ [DEBUG] remaining action time before step: 1525 ms
+ [DEBUG] consumed time: 1525 ms
+ [DEBUG] new action: Move (starting at node N0009 on edge N0009 --- N0011)
+ [DEBUG] remaining action time before step: 5629 ms
+ [DEBUG] time=13392;move;vehicle=Vehicle-01001;edge=N0009 --- N0011;distance_ahead=4.154000
+ [DEBUG] consumed time: 1475 ms
+ [DEBUG] ==== ==== ==== Step 26 ==== ==== ====
+ [INFO]  sorting agents by dependencies...  [DEBUG] agent Vehicle-01002: time till blocked: -1; blocking agent: NULL
+ [DEBUG] agent Vehicle-01001: time till blocked: 4154; blocking agent: NULL
+done
+ [INFO]  Vehicle-01002 is waiting.
+ [DEBUG] remaining action time before step: -1000 ms
+ [DEBUG] consumed time: 0 ms
+ [INFO]  Vehicle-01001 is moving.
+ [DEBUG] remaining action time before step: 4154 ms
+ [DEBUG] time=13909;move;vehicle=Vehicle-01001;edge=N0009 --- N0011;distance_ahead=1.154000
+ [DEBUG] consumed time: 3000 ms
+ [DEBUG] ==== ==== ==== Step 27 ==== ==== ====
+ [INFO]  sorting agents by dependencies...  [DEBUG] agent Vehicle-01002: time till blocked: -1; blocking agent: NULL
+ [DEBUG] agent Vehicle-01001: time till blocked: 5154; blocking agent: NULL
+done
+ [INFO]  Vehicle-01002 is waiting.
+ [DEBUG] remaining action time before step: -1000 ms
+ [DEBUG] consumed time: 0 ms
+ [INFO]  Vehicle-01001 is moving.
+ [DEBUG] remaining action time before step: 1154 ms
+ [DEBUG] time=14382;move;vehicle=Vehicle-01001;edge=N0009 --- N0011;distance_ahead=0.000000
+ [DEBUG] consumed time: 1154 ms
+ [DEBUG] remaining action time before step: 4000 ms
+ [DEBUG] consumed time: 1846 ms
+ [DEBUG] Vehicle-01001: Sending: position;N0011
+ [DEBUG] ==== ==== ==== Step 28 ==== ==== ====
+ [INFO]  sorting agents by dependencies...  [DEBUG] agent Vehicle-01002: time till blocked: -1; blocking agent: NULL
+ [DEBUG] agent Vehicle-01001: time till blocked: 8035; blocking agent: NULL
+done
+ [INFO]  Vehicle-01002 is waiting.
+ [DEBUG] remaining action time before step: -1000 ms
+ [DEBUG] consumed time: 0 ms
+ [INFO]  Vehicle-01001 is turning.
+ [DEBUG] remaining action time before step: 2154 ms
+ [DEBUG] consumed time: 2154 ms
+ [DEBUG] new action: Move (starting at node N0011 on edge N0011 --- N0013)
+ [DEBUG] remaining action time before step: 6881 ms
+ [DEBUG] time=15070;move;vehicle=Vehicle-01001;edge=N0011 --- N0013;distance_ahead=6.035000
+ [DEBUG] consumed time: 846 ms
+ [DEBUG] ==== ==== ==== Step 29 ==== ==== ====
+ [INFO]  sorting agents by dependencies...  [DEBUG] agent Vehicle-01002: time till blocked: -1; blocking agent: NULL
+ [DEBUG] agent Vehicle-01001: time till blocked: 6035; blocking agent: NULL
+done
+ [INFO]  Vehicle-01002 is waiting.
+ [DEBUG] remaining action time before step: -1000 ms
+ [DEBUG] consumed time: 0 ms
+ [INFO]  Vehicle-01001 is moving.
+ [DEBUG] remaining action time before step: 6035 ms
+ [DEBUG] time=15410;move;vehicle=Vehicle-01001;edge=N0011 --- N0013;distance_ahead=3.035000
+ [DEBUG] consumed time: 3000 ms
+ [DEBUG] ==== ==== ==== Step 30 ==== ==== ====
+ [INFO]  sorting agents by dependencies...  [DEBUG] agent Vehicle-01002: time till blocked: -1; blocking agent: NULL
+ [DEBUG] agent Vehicle-01001: time till blocked: 3034; blocking agent: NULL
+done
+ [INFO]  Vehicle-01002 is waiting.
+ [DEBUG] remaining action time before step: -1000 ms
+ [DEBUG] consumed time: 0 ms
+ [INFO]  Vehicle-01001 is moving.
+ [DEBUG] remaining action time before step: 3035 ms
+ [DEBUG] time=15913;move;vehicle=Vehicle-01001;edge=N0011 --- N0013;distance_ahead=0.035000
+ [DEBUG] consumed time: 3000 ms
+ [DEBUG] ==== ==== ==== Step 31 ==== ==== ====
+ [INFO]  sorting agents by dependencies...  [DEBUG] agent Vehicle-01002: time till blocked: -1; blocking agent: NULL
+ [DEBUG] agent Vehicle-01001: time till blocked: 4034; blocking agent: NULL
+done
+ [INFO]  Vehicle-01002 is waiting.
+ [DEBUG] remaining action time before step: -1000 ms
+ [DEBUG] consumed time: 0 ms
+ [INFO]  Vehicle-01001 is moving.
+ [DEBUG] remaining action time before step: 35 ms
+ [DEBUG] time=16353;move;vehicle=Vehicle-01001;edge=N0011 --- N0013;distance_ahead=0.000000
+ [DEBUG] consumed time: 35 ms
+ [DEBUG] remaining action time before step: 4000 ms
+ [DEBUG] consumed time: 2965 ms
+ [DEBUG] Vehicle-01001: Sending: position;N0013
+ [DEBUG] ==== ==== ==== Step 32 ==== ==== ====
+ [INFO]  sorting agents by dependencies...  [DEBUG] agent Vehicle-01002: time till blocked: -1; blocking agent: NULL
+ [DEBUG] agent Vehicle-01001: time till blocked: 9416; blocking agent: NULL
+done
+ [INFO]  Vehicle-01002 is waiting.
+ [DEBUG] remaining action time before step: -1000 ms
+ [DEBUG] consumed time: 0 ms
+ [INFO]  Vehicle-01001 is turning.
+ [DEBUG] remaining action time before step: 1035 ms
+ [DEBUG] consumed time: 1035 ms
+ [DEBUG] new action: Move (starting at node N0013 on edge N0013 --- N0018)
+ [DEBUG] remaining action time before step: 9381 ms
+ [DEBUG] time=17021;move;vehicle=Vehicle-01001;edge=N0013 --- N0018;distance_ahead=7.415999
+ [DEBUG] consumed time: 1965 ms
+ [DEBUG] ==== ==== ==== Step 33 ==== ==== ====
+ [INFO]  sorting agents by dependencies...  [DEBUG] agent Vehicle-01002: time till blocked: -1; blocking agent: NULL
+ [DEBUG] agent Vehicle-01001: time till blocked: 7415; blocking agent: NULL
+done
+ [INFO]  Vehicle-01002 is waiting.
+ [DEBUG] remaining action time before step: -1000 ms
+ [DEBUG] consumed time: 0 ms
+ [INFO]  Vehicle-01001 is moving.
+ [DEBUG] remaining action time before step: 7416 ms
+ [DEBUG] time=17362;move;vehicle=Vehicle-01001;edge=N0013 --- N0018;distance_ahead=4.415999
+ [DEBUG] consumed time: 3000 ms
+ [DEBUG] ==== ==== ==== Step 34 ==== ==== ====
+ [INFO]  sorting agents by dependencies...  [DEBUG] agent Vehicle-01002: time till blocked: -1; blocking agent: NULL
+ [DEBUG] agent Vehicle-01001: time till blocked: 4415; blocking agent: NULL
+done
+ [INFO]  Vehicle-01002 is waiting.
+ [DEBUG] remaining action time before step: -1000 ms
+ [DEBUG] consumed time: 0 ms
+ [INFO]  Vehicle-01001 is moving.
+ [DEBUG] remaining action time before step: 4416 ms
+ [DEBUG] time=17907;move;vehicle=Vehicle-01001;edge=N0013 --- N0018;distance_ahead=1.415999
+ [DEBUG] consumed time: 3000 ms
+ [DEBUG] ==== ==== ==== Step 35 ==== ==== ====
+ [INFO]  sorting agents by dependencies...  [DEBUG] agent Vehicle-01002: time till blocked: -1; blocking agent: NULL
+ [DEBUG] agent Vehicle-01001: time till blocked: 5415; blocking agent: NULL
+done
+ [INFO]  Vehicle-01002 is waiting.
+ [DEBUG] remaining action time before step: -1000 ms
+ [DEBUG] consumed time: 0 ms
+ [INFO]  Vehicle-01001 is moving.
+ [DEBUG] remaining action time before step: 1416 ms
+ [DEBUG] time=18412;move;vehicle=Vehicle-01001;edge=N0013 --- N0018;distance_ahead=0.000000
+ [DEBUG] consumed time: 1416 ms
+ [DEBUG] remaining action time before step: 4000 ms
+ [DEBUG] consumed time: 1584 ms
+ [DEBUG] Vehicle-01001: Sending: position;N0018
+ [DEBUG] ==== ==== ==== Step 36 ==== ==== ====
+ [INFO]  sorting agents by dependencies...  [DEBUG] agent Vehicle-01002: time till blocked: -1; blocking agent: NULL
+ [DEBUG] agent Vehicle-01001: time till blocked: 10797; blocking agent: NULL
+done
+ [INFO]  Vehicle-01002 is waiting.
+ [DEBUG] remaining action time before step: -1000 ms
+ [DEBUG] consumed time: 0 ms
+ [INFO]  Vehicle-01001 is turning.
+ [DEBUG] remaining action time before step: 2416 ms
+ [DEBUG] consumed time: 2416 ms
+ [DEBUG] new action: Move (starting at node N0018 on edge N0018 --- Q0019)
+ [DEBUG] remaining action time before step: 9381 ms
+ [DEBUG] time=19007;move;vehicle=Vehicle-01001;edge=N0018 --- Q0019;distance_ahead=8.797000
+ [DEBUG] consumed time: 584 ms
+ [DEBUG] ==== ==== ==== Step 37 ==== ==== ====
+ [INFO]  sorting agents by dependencies...  [DEBUG] agent Vehicle-01002: time till blocked: -1; blocking agent: NULL
+ [DEBUG] agent Vehicle-01001: time till blocked: 8797; blocking agent: NULL
+done
+ [INFO]  Vehicle-01002 is waiting.
+ [DEBUG] remaining action time before step: -1000 ms
+ [DEBUG] consumed time: 0 ms
+ [INFO]  Vehicle-01001 is moving.
+ [DEBUG] remaining action time before step: 8797 ms
+ [DEBUG] time=19376;move;vehicle=Vehicle-01001;edge=N0018 --- Q0019;distance_ahead=5.797000
+ [DEBUG] consumed time: 3000 ms
+ [DEBUG] ==== ==== ==== Step 38 ==== ==== ====
+ [INFO]  sorting agents by dependencies...  [DEBUG] agent Vehicle-01002: time till blocked: -1; blocking agent: NULL
+ [DEBUG] agent Vehicle-01001: time till blocked: 5797; blocking agent: NULL
+done
+ [INFO]  Vehicle-01002 is waiting.
+ [DEBUG] remaining action time before step: -1000 ms
+ [DEBUG] consumed time: 0 ms
+ [INFO]  Vehicle-01001 is moving.
+ [DEBUG] remaining action time before step: 5797 ms
+ [DEBUG] time=19892;move;vehicle=Vehicle-01001;edge=N0018 --- Q0019;distance_ahead=2.797000
+ [DEBUG] consumed time: 3000 ms
+ [DEBUG] ==== ==== ==== Step 39 ==== ==== ====
+ [INFO]  sorting agents by dependencies...  [DEBUG] agent Vehicle-01002: time till blocked: -1; blocking agent: NULL
+ [DEBUG] agent Vehicle-01001: time till blocked: 6797; blocking agent: NULL
+done
+ [INFO]  Vehicle-01002 is waiting.
+ [DEBUG] remaining action time before step: -1000 ms
+ [DEBUG] consumed time: 0 ms
+ [INFO]  Vehicle-01001 is moving.
+ [DEBUG] remaining action time before step: 2797 ms
+ [DEBUG] time=20378;move;vehicle=Vehicle-01001;edge=N0018 --- Q0019;distance_ahead=0.000000
+ [DEBUG] consumed time: 2797 ms
+ [DEBUG] remaining action time before step: 4000 ms
+ [DEBUG] consumed time: 203 ms
+ [DEBUG] Vehicle-01001: Sending: position;Q0019
+ [DEBUG] ==== ==== ==== Step 40 ==== ==== ====
+ [INFO]  sorting agents by dependencies...  [DEBUG] agent Vehicle-01002: time till blocked: -1; blocking agent: NULL
+ [DEBUG] agent Vehicle-01001: time till blocked: 3797; blocking agent: NULL
+done
+ [INFO]  Vehicle-01002 is waiting.
+ [DEBUG] remaining action time before step: -1000 ms
+ [DEBUG] consumed time: 0 ms
+ [INFO]  Vehicle-01001 is turning.
+ [DEBUG] remaining action time before step: 3797 ms
+ [DEBUG] consumed time: 3000 ms
+ [DEBUG] ==== ==== ==== Step 41 ==== ==== ====
+ [INFO]  sorting agents by dependencies...  [DEBUG] agent Vehicle-01002: time till blocked: -1; blocking agent: NULL
+ [DEBUG] agent Vehicle-01001: time till blocked: 9178; blocking agent: NULL
+done
+ [INFO]  Vehicle-01002 is waiting.
+ [DEBUG] remaining action time before step: -1000 ms
+ [DEBUG] consumed time: 0 ms
+ [INFO]  Vehicle-01001 is turning.
+ [DEBUG] remaining action time before step: 797 ms
+ [DEBUG] consumed time: 797 ms
+ [DEBUG] new action: Move (starting at node Q0019 on edge Q0019 --- N0017)
+ [DEBUG] remaining action time before step: 9381 ms
+ [DEBUG] time=21472;move;vehicle=Vehicle-01001;edge=Q0019 --- N0017;distance_ahead=7.177999
+ [DEBUG] consumed time: 2203 ms
+ [DEBUG] ==== ==== ==== Step 42 ==== ==== ====
+ [INFO]  sorting agents by dependencies...  [DEBUG] agent Vehicle-01002: time till blocked: -1; blocking agent: NULL
+ [DEBUG] agent Vehicle-01001: time till blocked: 7177; blocking agent: NULL
+done
+ [INFO]  Vehicle-01002 is waiting.
+ [DEBUG] remaining action time before step: -1000 ms
+ [DEBUG] consumed time: 0 ms
+ [INFO]  Vehicle-01001 is moving.
+ [DEBUG] remaining action time before step: 7178 ms
+ [DEBUG] time=22002;move;vehicle=Vehicle-01001;edge=Q0019 --- N0017;distance_ahead=4.177999
+ [DEBUG] consumed time: 3000 ms
+ [DEBUG] ==== ==== ==== Step 43 ==== ==== ====
+ [INFO]  sorting agents by dependencies...  [DEBUG] agent Vehicle-01002: time till blocked: -1; blocking agent: NULL
+ [DEBUG] agent Vehicle-01001: time till blocked: 4177; blocking agent: NULL
+done
+ [INFO]  Vehicle-01002 is waiting.
+ [DEBUG] remaining action time before step: -1000 ms
+ [DEBUG] consumed time: 0 ms
+ [INFO]  Vehicle-01001 is moving.
+ [DEBUG] remaining action time before step: 4178 ms
+ [DEBUG] time=22362;move;vehicle=Vehicle-01001;edge=Q0019 --- N0017;distance_ahead=1.177999
+ [DEBUG] consumed time: 3000 ms
+ [DEBUG] ==== ==== ==== Step 44 ==== ==== ====
+ [INFO]  sorting agents by dependencies...  [DEBUG] agent Vehicle-01002: time till blocked: -1; blocking agent: NULL
+ [DEBUG] agent Vehicle-01001: time till blocked: 5177; blocking agent: NULL
+done
+ [INFO]  Vehicle-01002 is waiting.
+ [DEBUG] remaining action time before step: -1000 ms
+ [DEBUG] consumed time: 0 ms
+ [INFO]  Vehicle-01001 is moving.
+ [DEBUG] remaining action time before step: 1178 ms
+ [DEBUG] time=22886;move;vehicle=Vehicle-01001;edge=Q0019 --- N0017;distance_ahead=0.000000
+ [DEBUG] consumed time: 1178 ms
+ [DEBUG] remaining action time before step: 4000 ms
+ [DEBUG] consumed time: 1822 ms
+ [DEBUG] Vehicle-01001: Sending: position;N0017
+ [DEBUG] ==== ==== ==== Step 45 ==== ==== ====
+ [INFO]  sorting agents by dependencies...  [DEBUG] agent Vehicle-01002: time till blocked: -1; blocking agent: NULL
+ [DEBUG] agent Vehicle-01001: time till blocked: 9883; blocking agent: NULL
+done
+ [INFO]  Vehicle-01002 is waiting.
+ [DEBUG] remaining action time before step: -1000 ms
+ [DEBUG] consumed time: 0 ms
+ [INFO]  Vehicle-01001 is turning.
+ [DEBUG] remaining action time before step: 2178 ms
+ [DEBUG] consumed time: 2178 ms
+ [DEBUG] new action: Move (starting at node N0017 on edge N0017 --- S0020)
+ [DEBUG] remaining action time before step: 8705 ms
+ [DEBUG] time=23552;move;vehicle=Vehicle-01001;edge=N0017 --- S0020;distance_ahead=7.883000
+ [DEBUG] consumed time: 822 ms
+ [DEBUG] ==== ==== ==== Step 46 ==== ==== ====
+ [INFO]  sorting agents by dependencies...  [DEBUG] agent Vehicle-01002: time till blocked: -1; blocking agent: NULL
+ [DEBUG] agent Vehicle-01001: time till blocked: 7883; blocking agent: NULL
+done
+ [INFO]  Vehicle-01002 is waiting.
+ [DEBUG] remaining action time before step: -1000 ms
+ [DEBUG] consumed time: 0 ms
+ [INFO]  Vehicle-01001 is moving.
+ [DEBUG] remaining action time before step: 7883 ms
+ [DEBUG] time=24058;move;vehicle=Vehicle-01001;edge=N0017 --- S0020;distance_ahead=4.883000
+ [DEBUG] consumed time: 3000 ms
+ [DEBUG] ==== ==== ==== Step 47 ==== ==== ====
+ [INFO]  sorting agents by dependencies...  [DEBUG] agent Vehicle-01002: time till blocked: -1; blocking agent: NULL
+ [DEBUG] agent Vehicle-01001: time till blocked: 4883; blocking agent: NULL
+done
+ [INFO]  Vehicle-01002 is waiting.
+ [DEBUG] remaining action time before step: -1000 ms
+ [DEBUG] consumed time: 0 ms
+ [INFO]  Vehicle-01001 is moving.
+ [DEBUG] remaining action time before step: 4883 ms
+ [DEBUG] time=24411;move;vehicle=Vehicle-01001;edge=N0017 --- S0020;distance_ahead=1.883000
+ [DEBUG] consumed time: 3000 ms
+ [DEBUG] ==== ==== ==== Step 48 ==== ==== ====
+ [INFO]  sorting agents by dependencies...  [DEBUG] agent Vehicle-01002: time till blocked: -1; blocking agent: NULL
+ [DEBUG] agent Vehicle-01001: time till blocked: 5882; blocking agent: NULL
+done
+ [INFO]  Vehicle-01002 is waiting.
+ [DEBUG] remaining action time before step: -1000 ms
+ [DEBUG] consumed time: 0 ms
+ [INFO]  Vehicle-01001 is moving.
+ [DEBUG] remaining action time before step: 1883 ms
+ [DEBUG] time=24930;move;vehicle=Vehicle-01001;edge=N0017 --- S0020;distance_ahead=0.000000
+ [DEBUG] consumed time: 1883 ms
+ [DEBUG] remaining action time before step: 4000 ms
+ [DEBUG] consumed time: 1117 ms
+ [DEBUG] Vehicle-01001: Sending: position;S0020
+ [DEBUG] ==== ==== ==== Step 49 ==== ==== ====
+ [INFO]  sorting agents by dependencies...  [DEBUG] agent Vehicle-01002: time till blocked: -1; blocking agent: NULL
+ [DEBUG] agent Vehicle-01001: time till blocked: 8685; blocking agent: NULL
+done
+ [INFO]  Vehicle-01002 is waiting.
+ [DEBUG] remaining action time before step: -1000 ms
+ [DEBUG] consumed time: 0 ms
+ [INFO]  Vehicle-01001 is turning.
+ [DEBUG] remaining action time before step: 2883 ms
+ [DEBUG] consumed time: 2883 ms
+ [DEBUG] new action: Move (starting at node S0020 on edge S0020 --- Q0021)
+ [DEBUG] remaining action time before step: 6802 ms
+ [DEBUG] time=25579;move;vehicle=Vehicle-01001;edge=S0020 --- Q0021;distance_ahead=6.685000
+ [DEBUG] consumed time: 117 ms
+ [DEBUG] ==== ==== ==== Step 50 ==== ==== ====
+ [INFO]  sorting agents by dependencies...  [DEBUG] agent Vehicle-01002: time till blocked: -1; blocking agent: NULL
+ [DEBUG] agent Vehicle-01001: time till blocked: 6685; blocking agent: NULL
+done
+ [INFO]  Vehicle-01002 is waiting.
+ [DEBUG] remaining action time before step: -1000 ms
+ [DEBUG] consumed time: 0 ms
+ [INFO]  Vehicle-01001 is moving.
+ [DEBUG] remaining action time before step: 6685 ms
+ [DEBUG] time=26152;move;vehicle=Vehicle-01001;edge=S0020 --- Q0021;distance_ahead=3.685000
+ [DEBUG] consumed time: 3000 ms
+ [DEBUG] ==== ==== ==== Step 51 ==== ==== ====
+ [INFO]  sorting agents by dependencies...  [DEBUG] agent Vehicle-01002: time till blocked: -1; blocking agent: NULL
+ [DEBUG] agent Vehicle-01001: time till blocked: 3685; blocking agent: NULL
+done
+ [INFO]  Vehicle-01002 is waiting.
+ [DEBUG] remaining action time before step: -1000 ms
+ [DEBUG] consumed time: 0 ms
+ [INFO]  Vehicle-01001 is moving.
+ [DEBUG] remaining action time before step: 3685 ms
+ [DEBUG] time=26438;move;vehicle=Vehicle-01001;edge=S0020 --- Q0021;distance_ahead=0.685000
+ [DEBUG] consumed time: 3000 ms
+ [DEBUG] ==== ==== ==== Step 52 ==== ==== ====
+ [INFO]  sorting agents by dependencies...  [DEBUG] agent Vehicle-01002: time till blocked: -1; blocking agent: NULL
+ [DEBUG] agent Vehicle-01001: time till blocked: -1; blocking agent: NULL
+done
+ [INFO]  Vehicle-01002 is waiting.
+ [DEBUG] remaining action time before step: -1000 ms
+ [DEBUG] consumed time: 0 ms
+ [INFO]  Vehicle-01001 is moving.
+ [DEBUG] remaining action time before step: 685 ms
+ [DEBUG] time=26952;move;vehicle=Vehicle-01001;edge=S0020 --- Q0021;distance_ahead=0.000000
+ [DEBUG] consumed time: 685 ms
+ [DEBUG] remaining action time before step: -1000 ms
+ [DEBUG] consumed time: 0 ms
+ [DEBUG] Vehicle-01001: Sending: position;Q0021
+ [DEBUG] ==== ==== ==== Step 53 ==== ==== ====
+ [INFO]  sorting agents by dependencies...  [DEBUG] agent Vehicle-01002: time till blocked: -1; blocking agent: NULL
+ [DEBUG] agent Vehicle-01001: time till blocked: -1; blocking agent: NULL
+done
+ [INFO]  Vehicle-01002 is waiting.
+ [DEBUG] remaining action time before step: -1000 ms
+ [DEBUG] consumed time: 0 ms
+ [INFO]  Vehicle-01001 is waiting.
+ [DEBUG] remaining action time before step: -1000 ms
+ [DEBUG] consumed time: 0 ms
+ [DEBUG] ==== ==== ==== Step 54 ==== ==== ====
+ [INFO]  sorting agents by dependencies...  [DEBUG] agent Vehicle-01002: time till blocked: -1; blocking agent: NULL
+ [DEBUG] agent Vehicle-01001: time till blocked: -1; blocking agent: NULL
+done
+ [INFO]  Vehicle-01002 is waiting.
+ [DEBUG] remaining action time before step: -1000 ms
+ [DEBUG] consumed time: 0 ms
+ [INFO]  Vehicle-01001 is waiting.
+ [DEBUG] remaining action time before step: -1000 ms
+ [DEBUG] consumed time: 0 ms
+ [DEBUG] ==== ==== ==== Step 55 ==== ==== ====
+ [INFO]  sorting agents by dependencies...  [DEBUG] agent Vehicle-01002: time till blocked: -1; blocking agent: NULL
+ [DEBUG] agent Vehicle-01001: time till blocked: -1; blocking agent: NULL
+done
+ [INFO]  Vehicle-01002 is waiting.
+ [DEBUG] remaining action time before step: -1000 ms
+ [DEBUG] consumed time: 0 ms
+ [INFO]  Vehicle-01001 is waiting.
+ [DEBUG] remaining action time before step: -1000 ms
+ [DEBUG] consumed time: 0 ms
+ [DEBUG] ==== ==== ==== Step 56 ==== ==== ====
+ [INFO]  sorting agents by dependencies...  [DEBUG] agent Vehicle-01002: time till blocked: -1; blocking agent: NULL
+ [DEBUG] agent Vehicle-01001: time till blocked: -1; blocking agent: NULL
+done
+ [INFO]  Vehicle-01002 is waiting.
+ [DEBUG] remaining action time before step: -1000 ms
+ [DEBUG] consumed time: 0 ms
+ [INFO]  Vehicle-01001 is waiting.
+ [DEBUG] remaining action time before step: -1000 ms
+ [DEBUG] consumed time: 0 ms

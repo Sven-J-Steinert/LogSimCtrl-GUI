@@ -1,0 +1,729 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<model version="0.0.4" name="Demo-01">
+    <point name="N0001" xPosition="28000" yPosition="11000" zPosition="0" vehicleOrientationAngle="NaN" type="HALT_POSITION">
+        <outgoingPath name="N0001 --- N0002"/>
+        <outgoingPath name="N0001 --- N0003"/>
+        <pointLayout xPosition="28000" yPosition="11000" xLabelOffset="-10" yLabelOffset="-20" layerId="0"/>
+    </point>
+    <point name="N0002" xPosition="25000" yPosition="9000" zPosition="0" vehicleOrientationAngle="NaN" type="PARK_POSITION">
+        <outgoingPath name="N0002 --- N0014"/>
+        <pointLayout xPosition="25000" yPosition="9000" xLabelOffset="-10" yLabelOffset="-20" layerId="0"/>
+    </point>
+    <point name="N0003" xPosition="28000" yPosition="5000" zPosition="0" vehicleOrientationAngle="NaN" type="HALT_POSITION">
+        <outgoingPath name="N0003 --- N0004"/>
+        <outgoingPath name="N0003 --- N0005"/>
+        <pointLayout xPosition="28000" yPosition="5000" xLabelOffset="-10" yLabelOffset="-20" layerId="0"/>
+    </point>
+    <point name="N0004" xPosition="25000" yPosition="3000" zPosition="0" vehicleOrientationAngle="NaN" type="PARK_POSITION">
+        <outgoingPath name="N0004 --- N0008"/>
+        <pointLayout xPosition="25000" yPosition="3000" xLabelOffset="-10" yLabelOffset="-20" layerId="0"/>
+    </point>
+    <point name="N0005" xPosition="28000" yPosition="-1000" zPosition="0" vehicleOrientationAngle="NaN" type="HALT_POSITION">
+        <outgoingPath name="N0005 --- N0006"/>
+        <outgoingPath name="N0005 --- N0007"/>
+        <pointLayout xPosition="28000" yPosition="-1000" xLabelOffset="-10" yLabelOffset="-20" layerId="0"/>
+    </point>
+    <point name="N0006" xPosition="25000" yPosition="-3000" zPosition="0" vehicleOrientationAngle="NaN" type="PARK_POSITION">
+        <outgoingPath name="N0006 --- N0009"/>
+        <pointLayout xPosition="25000" yPosition="-3000" xLabelOffset="-10" yLabelOffset="-20" layerId="0"/>
+    </point>
+    <point name="N0007" xPosition="28000" yPosition="-7000" zPosition="0" vehicleOrientationAngle="NaN" type="HALT_POSITION">
+        <outgoingPath name="N0007 --- N0010"/>
+        <outgoingPath name="N0007 --- N0012"/>
+        <pointLayout xPosition="28000" yPosition="-7000" xLabelOffset="-10" yLabelOffset="-20" layerId="0"/>
+    </point>
+    <point name="N0008" xPosition="22000" yPosition="1000" zPosition="0" vehicleOrientationAngle="NaN" type="HALT_POSITION">
+        <outgoingPath name="N0008 --- N0009"/>
+        <pointLayout xPosition="22000" yPosition="1000" xLabelOffset="-10" yLabelOffset="-20" layerId="0"/>
+    </point>
+    <point name="N0009" xPosition="22000" yPosition="-5000" zPosition="0" vehicleOrientationAngle="NaN" type="HALT_POSITION">
+        <outgoingPath name="N0009 --- N0011"/>
+        <pointLayout xPosition="22000" yPosition="-5000" xLabelOffset="-10" yLabelOffset="-20" layerId="0"/>
+    </point>
+    <point name="N0010" xPosition="25000" yPosition="-9000" zPosition="0" vehicleOrientationAngle="NaN" type="PARK_POSITION">
+        <outgoingPath name="N0010 --- N0011"/>
+        <pointLayout xPosition="25000" yPosition="-9000" xLabelOffset="-10" yLabelOffset="-20" layerId="0"/>
+    </point>
+    <point name="N0011" xPosition="22000" yPosition="-11000" zPosition="0" vehicleOrientationAngle="NaN" type="HALT_POSITION">
+        <outgoingPath name="N0011 --- N0013"/>
+        <pointLayout xPosition="22000" yPosition="-11000" xLabelOffset="-10" yLabelOffset="-20" layerId="0"/>
+    </point>
+    <point name="N0012" xPosition="25000" yPosition="-15000" zPosition="0" vehicleOrientationAngle="NaN" type="PARK_POSITION">
+        <outgoingPath name="N0012 --- N0013"/>
+        <pointLayout xPosition="25000" yPosition="-15000" xLabelOffset="-10" yLabelOffset="-20" layerId="0"/>
+    </point>
+    <point name="N0013" xPosition="18000" yPosition="-15000" zPosition="0" vehicleOrientationAngle="NaN" type="HALT_POSITION">
+        <outgoingPath name="N0013 --- N0015"/>
+        <outgoingPath name="N0013 --- N0018"/>
+        <outgoingPath name="N0013 --- N0057"/>
+        <pointLayout xPosition="18000" yPosition="-15000" xLabelOffset="-10" yLabelOffset="-20" layerId="0"/>
+    </point>
+    <point name="N0014" xPosition="22000" yPosition="7000" zPosition="0" vehicleOrientationAngle="NaN" type="HALT_POSITION">
+        <outgoingPath name="N0014 --- N0008"/>
+        <pointLayout xPosition="22000" yPosition="7000" xLabelOffset="-10" yLabelOffset="-20" layerId="0"/>
+    </point>
+    <point name="N0015" xPosition="7850" yPosition="-11000" zPosition="0" vehicleOrientationAngle="NaN" type="HALT_POSITION">
+        <outgoingPath name="N0015 --- N0016"/>
+        <outgoingPath name="N0015 --- N0050"/>
+        <pointLayout xPosition="7850" yPosition="-11000" xLabelOffset="-10" yLabelOffset="-20" layerId="0"/>
+    </point>
+    <point name="N0016" xPosition="-2000" yPosition="-11000" zPosition="0" vehicleOrientationAngle="NaN" type="HALT_POSITION">
+        <outgoingPath name="N0016 --- N0017"/>
+        <outgoingPath name="N0016 --- N0022"/>
+        <outgoingPath name="N0016 --- N0046"/>
+        <pointLayout xPosition="-2000" yPosition="-11000" xLabelOffset="-10" yLabelOffset="-20" layerId="0"/>
+    </point>
+    <point name="N0017" xPosition="-12000" yPosition="-15000" zPosition="0" vehicleOrientationAngle="NaN" type="HALT_POSITION">
+        <outgoingPath name="N0017 --- S0020"/>
+        <pointLayout xPosition="-12000" yPosition="-15000" xLabelOffset="-10" yLabelOffset="-20" layerId="0"/>
+    </point>
+    <point name="N0018" xPosition="8000" yPosition="-15000" zPosition="0" vehicleOrientationAngle="NaN" type="HALT_POSITION">
+        <outgoingPath name="N0018 --- Q0019"/>
+        <pointLayout xPosition="8000" yPosition="-15000" xLabelOffset="-10" yLabelOffset="-20" layerId="0"/>
+    </point>
+    <point name="N0022" xPosition="-12000" yPosition="-11000" zPosition="0" vehicleOrientationAngle="NaN" type="HALT_POSITION">
+        <outgoingPath name="N0022 --- N0056"/>
+        <pointLayout xPosition="-12000" yPosition="-11000" xLabelOffset="-10" yLabelOffset="-20" layerId="0"/>
+    </point>
+    <point name="N0023" xPosition="-24000" yPosition="-4000" zPosition="0" vehicleOrientationAngle="NaN" type="HALT_POSITION">
+        <outgoingPath name="N0023 --- N0024"/>
+        <pointLayout xPosition="-24000" yPosition="-4000" xLabelOffset="-10" yLabelOffset="-20" layerId="0"/>
+    </point>
+    <point name="N0024" xPosition="-24000" yPosition="1000" zPosition="0" vehicleOrientationAngle="NaN" type="HALT_POSITION">
+        <outgoingPath name="N0024 --- S0025"/>
+        <pointLayout xPosition="-24000" yPosition="1000" xLabelOffset="-10" yLabelOffset="-20" layerId="0"/>
+    </point>
+    <point name="N0030" xPosition="-20000" yPosition="11000" zPosition="0" vehicleOrientationAngle="NaN" type="HALT_POSITION">
+        <outgoingPath name="N0030 --- N0032"/>
+        <pointLayout xPosition="-20000" yPosition="11000" xLabelOffset="-10" yLabelOffset="-20" layerId="0"/>
+    </point>
+    <point name="N0032" xPosition="-13000" yPosition="11000" zPosition="0" vehicleOrientationAngle="NaN" type="HALT_POSITION">
+        <outgoingPath name="N0032 --- S0028"/>
+        <pointLayout xPosition="-13000" yPosition="11000" xLabelOffset="-10" yLabelOffset="-20" layerId="0"/>
+    </point>
+    <point name="N0033" xPosition="24000" yPosition="15000" zPosition="0" vehicleOrientationAngle="NaN" type="HALT_POSITION">
+        <outgoingPath name="N0033 --- N0001"/>
+        <pointLayout xPosition="24000" yPosition="15000" xLabelOffset="-10" yLabelOffset="-20" layerId="0"/>
+    </point>
+    <point name="N0034" xPosition="16000" yPosition="11000" zPosition="0" vehicleOrientationAngle="NaN" type="HALT_POSITION">
+        <outgoingPath name="N0034 --- N0014"/>
+        <outgoingPath name="N0034 --- N0033"/>
+        <pointLayout xPosition="16000" yPosition="11000" xLabelOffset="-10" yLabelOffset="-20" layerId="0"/>
+    </point>
+    <point name="N0035" xPosition="3000" yPosition="11000" zPosition="0" vehicleOrientationAngle="NaN" type="HALT_POSITION">
+        <outgoingPath name="N0035 --- N0036"/>
+        <pointLayout xPosition="3000" yPosition="11000" xLabelOffset="-10" yLabelOffset="-20" layerId="0"/>
+    </point>
+    <point name="N0036" xPosition="9000" yPosition="11000" zPosition="0" vehicleOrientationAngle="NaN" type="HALT_POSITION">
+        <outgoingPath name="N0036 --- N0034"/>
+        <pointLayout xPosition="9000" yPosition="11000" xLabelOffset="-10" yLabelOffset="-20" layerId="0"/>
+    </point>
+    <point name="N0037" xPosition="-8000" yPosition="7000" zPosition="0" vehicleOrientationAngle="NaN" type="HALT_POSITION">
+        <outgoingPath name="N0037 --- S0028"/>
+        <pointLayout xPosition="-8000" yPosition="7000" xLabelOffset="-10" yLabelOffset="-20" layerId="0"/>
+    </point>
+    <point name="N0038" xPosition="-2000" yPosition="7000" zPosition="0" vehicleOrientationAngle="NaN" type="HALT_POSITION">
+        <outgoingPath name="N0038 --- N0037"/>
+        <pointLayout xPosition="-2000" yPosition="7000" xLabelOffset="-10" yLabelOffset="-20" layerId="0"/>
+    </point>
+    <point name="N0039" xPosition="-13000" yPosition="9000" zPosition="0" vehicleOrientationAngle="NaN" type="HALT_POSITION">
+        <outgoingPath name="N0039 --- N0040"/>
+        <pointLayout xPosition="-13000" yPosition="9000" xLabelOffset="-10" yLabelOffset="-20" layerId="0"/>
+    </point>
+    <point name="N0040" xPosition="-8000" yPosition="9000" zPosition="0" vehicleOrientationAngle="NaN" type="HALT_POSITION">
+        <outgoingPath name="N0040 --- N0041"/>
+        <pointLayout xPosition="-8000" yPosition="9000" xLabelOffset="-10" yLabelOffset="-20" layerId="0"/>
+    </point>
+    <point name="N0041" xPosition="-2000" yPosition="9000" zPosition="0" vehicleOrientationAngle="NaN" type="HALT_POSITION">
+        <outgoingPath name="N0041 --- N0035"/>
+        <pointLayout xPosition="-2000" yPosition="9000" xLabelOffset="-10" yLabelOffset="-20" layerId="0"/>
+    </point>
+    <point name="N0042" xPosition="-20000" yPosition="9000" zPosition="0" vehicleOrientationAngle="NaN" type="HALT_POSITION">
+        <outgoingPath name="N0042 --- N0039"/>
+        <pointLayout xPosition="-20000" yPosition="9000" xLabelOffset="-10" yLabelOffset="-20" layerId="0"/>
+    </point>
+    <point name="N0043" xPosition="-11000" yPosition="5000" zPosition="0" vehicleOrientationAngle="NaN" type="HALT_POSITION">
+        <outgoingPath name="N0043 --- N0052"/>
+        <pointLayout xPosition="-11000" yPosition="5000" xLabelOffset="-10" yLabelOffset="-20" layerId="0"/>
+    </point>
+    <point name="N0044" xPosition="7000" yPosition="5000" zPosition="0" vehicleOrientationAngle="NaN" type="HALT_POSITION">
+        <outgoingPath name="N0044 --- S0047"/>
+        <pointLayout xPosition="7000" yPosition="5000" xLabelOffset="-10" yLabelOffset="-20" layerId="0"/>
+    </point>
+    <point name="N0045" xPosition="7000" yPosition="-7000" zPosition="0" vehicleOrientationAngle="NaN" type="HALT_POSITION">
+        <outgoingPath name="N0045 --- N0016"/>
+        <outgoingPath name="N0045 --- N0055"/>
+        <pointLayout xPosition="7000" yPosition="-7000" xLabelOffset="-10" yLabelOffset="-20" layerId="0"/>
+    </point>
+    <point name="N0046" xPosition="-11000" yPosition="-7000" zPosition="0" vehicleOrientationAngle="NaN" type="HALT_POSITION">
+        <outgoingPath name="N0046 --- S0054"/>
+        <pointLayout xPosition="-11000" yPosition="-7000" xLabelOffset="-10" yLabelOffset="-20" layerId="0"/>
+    </point>
+    <point name="N0048" xPosition="-15000" yPosition="1000" zPosition="0" vehicleOrientationAngle="NaN" type="HALT_POSITION">
+        <outgoingPath name="N0048 --- N0043"/>
+        <pointLayout xPosition="-15000" yPosition="1000" xLabelOffset="-10" yLabelOffset="-20" layerId="0"/>
+    </point>
+    <point name="N0049" xPosition="2000" yPosition="3000" zPosition="0" vehicleOrientationAngle="NaN" type="HALT_POSITION">
+        <outgoingPath name="N0049 --- N0038"/>
+        <pointLayout xPosition="2000" yPosition="3000" xLabelOffset="-10" yLabelOffset="-20" layerId="0"/>
+    </point>
+    <point name="N0050" xPosition="2000" yPosition="-5000" zPosition="0" vehicleOrientationAngle="NaN" type="HALT_POSITION">
+        <outgoingPath name="N0050 --- N0051"/>
+        <pointLayout xPosition="2000" yPosition="-5000" xLabelOffset="-10" yLabelOffset="-20" layerId="0"/>
+    </point>
+    <point name="N0051" xPosition="2000" yPosition="-1000" zPosition="0" vehicleOrientationAngle="NaN" type="HALT_POSITION">
+        <outgoingPath name="N0051 --- N0049"/>
+        <pointLayout xPosition="2000" yPosition="-1000" xLabelOffset="-10" yLabelOffset="-20" layerId="0"/>
+    </point>
+    <point name="N0052" xPosition="-2000" yPosition="5000" zPosition="0" vehicleOrientationAngle="NaN" type="HALT_POSITION">
+        <outgoingPath name="N0052 --- N0044"/>
+        <pointLayout xPosition="-2000" yPosition="5000" xLabelOffset="-10" yLabelOffset="-20" layerId="0"/>
+    </point>
+    <point name="N0055" xPosition="-2000" yPosition="-7000" zPosition="0" vehicleOrientationAngle="NaN" type="HALT_POSITION">
+        <outgoingPath name="N0055 --- N0046"/>
+        <pointLayout xPosition="-2000" yPosition="-7000" xLabelOffset="-10" yLabelOffset="-20" layerId="0"/>
+    </point>
+    <point name="N0056" xPosition="-20000" yPosition="-8000" zPosition="0" vehicleOrientationAngle="NaN" type="HALT_POSITION">
+        <outgoingPath name="N0056 --- N0023"/>
+        <pointLayout xPosition="-20000" yPosition="-8000" xLabelOffset="-10" yLabelOffset="-20" layerId="0"/>
+    </point>
+    <point name="N0057" xPosition="8000" yPosition="-21000" zPosition="0" vehicleOrientationAngle="NaN" type="HALT_POSITION">
+        <outgoingPath name="N0057 --- N0058"/>
+        <pointLayout xPosition="8000" yPosition="-21000" xLabelOffset="-10" yLabelOffset="-20" layerId="0"/>
+    </point>
+    <point name="N0058" xPosition="-2000" yPosition="-21000" zPosition="0" vehicleOrientationAngle="NaN" type="HALT_POSITION">
+        <outgoingPath name="N0058 --- S0059"/>
+        <pointLayout xPosition="-2000" yPosition="-21000" xLabelOffset="-10" yLabelOffset="-20" layerId="0"/>
+    </point>
+    <point name="N0060" xPosition="-20000" yPosition="-21000" zPosition="0" vehicleOrientationAngle="NaN" type="HALT_POSITION">
+        <outgoingPath name="N0060 --- N0061"/>
+        <pointLayout xPosition="-20000" yPosition="-21000" xLabelOffset="-10" yLabelOffset="-20" layerId="0"/>
+    </point>
+    <point name="N0061" xPosition="-24000" yPosition="-15000" zPosition="0" vehicleOrientationAngle="NaN" type="HALT_POSITION">
+        <outgoingPath name="N0061 --- Q0021"/>
+        <pointLayout xPosition="-24000" yPosition="-15000" xLabelOffset="-10" yLabelOffset="-20" layerId="0"/>
+    </point>
+    <point name="Q0019" xPosition="-2000" yPosition="-15000" zPosition="0" vehicleOrientationAngle="NaN" type="HALT_POSITION">
+        <outgoingPath name="Q0019 --- N0017"/>
+        <outgoingPath name="Q0019 --- N0022"/>
+        <pointLayout xPosition="-2000" yPosition="-15000" xLabelOffset="-10" yLabelOffset="-20" layerId="0"/>
+    </point>
+    <point name="Q0021" xPosition="-24000" yPosition="-8000" zPosition="0" vehicleOrientationAngle="NaN" type="HALT_POSITION">
+        <outgoingPath name="Q0021 --- N0023"/>
+        <pointLayout xPosition="-24000" yPosition="-8000" xLabelOffset="-10" yLabelOffset="-20" layerId="0"/>
+    </point>
+    <point name="Q0026" xPosition="-24000" yPosition="11000" zPosition="0" vehicleOrientationAngle="NaN" type="HALT_POSITION">
+        <outgoingPath name="Q0026 --- S0027"/>
+        <pointLayout xPosition="-24000" yPosition="11000" xLabelOffset="-10" yLabelOffset="-20" layerId="0"/>
+    </point>
+    <point name="Q0029" xPosition="-2000" yPosition="11000" zPosition="0" vehicleOrientationAngle="NaN" type="HALT_POSITION">
+        <outgoingPath name="Q0029 --- N0035"/>
+        <pointLayout xPosition="-2000" yPosition="11000" xLabelOffset="-10" yLabelOffset="-20" layerId="0"/>
+    </point>
+    <point name="Q0053" xPosition="11000" yPosition="-3000" zPosition="0" vehicleOrientationAngle="NaN" type="HALT_POSITION">
+        <outgoingPath name="Q0053 --- N0045"/>
+        <pointLayout xPosition="11000" yPosition="-3000" xLabelOffset="-10" yLabelOffset="-20" layerId="0"/>
+    </point>
+    <point name="S0020" xPosition="-20000" yPosition="-12000" zPosition="0" vehicleOrientationAngle="NaN" type="HALT_POSITION">
+        <outgoingPath name="S0020 --- Q0021"/>
+        <pointLayout xPosition="-20000" yPosition="-12000" xLabelOffset="-10" yLabelOffset="-20" layerId="0"/>
+    </point>
+    <point name="S0025" xPosition="-24000" yPosition="6000" zPosition="0" vehicleOrientationAngle="NaN" type="HALT_POSITION">
+        <outgoingPath name="S0025 --- N0030"/>
+        <outgoingPath name="S0025 --- N0042"/>
+        <outgoingPath name="S0025 --- Q0026"/>
+        <pointLayout xPosition="-24000" yPosition="6000" xLabelOffset="-10" yLabelOffset="-20" layerId="0"/>
+    </point>
+    <point name="S0027" xPosition="-20000" yPosition="15000" zPosition="0" vehicleOrientationAngle="NaN" type="PARK_POSITION">
+        <outgoingPath name="S0027 --- N0032"/>
+        <pointLayout xPosition="-20000" yPosition="15000" xLabelOffset="-10" yLabelOffset="-20" layerId="0"/>
+    </point>
+    <point name="S0028" xPosition="-8000" yPosition="11000" zPosition="0" vehicleOrientationAngle="NaN" type="HALT_POSITION">
+        <outgoingPath name="S0028 --- Q0029"/>
+        <pointLayout xPosition="-8000" yPosition="11000" xLabelOffset="-10" yLabelOffset="-20" layerId="0"/>
+    </point>
+    <point name="S0047" xPosition="11000" yPosition="1000" zPosition="0" vehicleOrientationAngle="NaN" type="HALT_POSITION">
+        <outgoingPath name="S0047 --- Q0053"/>
+        <pointLayout xPosition="11000" yPosition="1000" xLabelOffset="-10" yLabelOffset="-20" layerId="0"/>
+    </point>
+    <point name="S0054" xPosition="-15000" yPosition="-3000" zPosition="0" vehicleOrientationAngle="NaN" type="HALT_POSITION">
+        <outgoingPath name="S0054 --- N0048"/>
+        <pointLayout xPosition="-15000" yPosition="-3000" xLabelOffset="-10" yLabelOffset="-20" layerId="0"/>
+    </point>
+    <point name="S0059" xPosition="-12000" yPosition="-21000" zPosition="0" vehicleOrientationAngle="NaN" type="HALT_POSITION">
+        <outgoingPath name="S0059 --- N0060"/>
+        <pointLayout xPosition="-12000" yPosition="-21000" xLabelOffset="-10" yLabelOffset="-20" layerId="0"/>
+    </point>
+    <path name="N0001 --- N0002" sourcePoint="N0001" destinationPoint="N0002" length="4383" maxVelocity="1000" maxReverseVelocity="0" locked="false">
+        <pathLayout connectionType="BEZIER" layerId="0">
+            <controlPoint x="552" y="-183"/>
+            <controlPoint x="552" y="-183"/>
+        </pathLayout>
+    </path>
+    <path name="N0001 --- N0003" sourcePoint="N0001" destinationPoint="N0003" length="5629" maxVelocity="1000" maxReverseVelocity="0" locked="false">
+        <pathLayout connectionType="DIRECT" layerId="0"/>
+    </path>
+    <path name="N0002 --- N0014" sourcePoint="N0002" destinationPoint="N0014" length="4267" maxVelocity="1000" maxReverseVelocity="0" locked="false">
+        <pathLayout connectionType="BEZIER" layerId="0">
+            <controlPoint x="450" y="-174"/>
+            <controlPoint x="450" y="-174"/>
+        </pathLayout>
+    </path>
+    <path name="N0003 --- N0004" sourcePoint="N0003" destinationPoint="N0004" length="4336" maxVelocity="1000" maxReverseVelocity="0" locked="false">
+        <pathLayout connectionType="BEZIER" layerId="0">
+            <controlPoint x="553" y="-65"/>
+            <controlPoint x="553" y="-65"/>
+        </pathLayout>
+    </path>
+    <path name="N0003 --- N0005" sourcePoint="N0003" destinationPoint="N0005" length="5629" maxVelocity="1000" maxReverseVelocity="0" locked="false">
+        <pathLayout connectionType="DIRECT" layerId="0"/>
+    </path>
+    <path name="N0004 --- N0008" sourcePoint="N0004" destinationPoint="N0008" length="4302" maxVelocity="1000" maxReverseVelocity="0" locked="false">
+        <pathLayout connectionType="BEZIER" layerId="0">
+            <controlPoint x="449" y="-54"/>
+            <controlPoint x="449" y="-54"/>
+        </pathLayout>
+    </path>
+    <path name="N0005 --- N0006" sourcePoint="N0005" destinationPoint="N0006" length="4423" maxVelocity="1000" maxReverseVelocity="0" locked="false">
+        <pathLayout connectionType="BEZIER" layerId="0">
+            <controlPoint x="553" y="56"/>
+            <controlPoint x="553" y="56"/>
+        </pathLayout>
+    </path>
+    <path name="N0005 --- N0007" sourcePoint="N0005" destinationPoint="N0007" length="5629" maxVelocity="1000" maxReverseVelocity="0" locked="false">
+        <pathLayout connectionType="DIRECT" layerId="0"/>
+    </path>
+    <path name="N0006 --- N0009" sourcePoint="N0006" destinationPoint="N0009" length="4302" maxVelocity="1000" maxReverseVelocity="0" locked="false">
+        <pathLayout connectionType="BEZIER" layerId="0">
+            <controlPoint x="449" y="65"/>
+            <controlPoint x="449" y="65"/>
+        </pathLayout>
+    </path>
+    <path name="N0007 --- N0010" sourcePoint="N0007" destinationPoint="N0010" length="4379" maxVelocity="1000" maxReverseVelocity="0" locked="false">
+        <pathLayout connectionType="BEZIER" layerId="0">
+            <controlPoint x="553" y="175"/>
+            <controlPoint x="553" y="175"/>
+        </pathLayout>
+    </path>
+    <path name="N0007 --- N0012" sourcePoint="N0007" destinationPoint="N0012" length="9529" maxVelocity="1000" maxReverseVelocity="0" locked="false">
+        <pathLayout connectionType="BEZIER" layerId="0">
+            <controlPoint x="552" y="276"/>
+            <controlPoint x="552" y="276"/>
+        </pathLayout>
+    </path>
+    <path name="N0008 --- N0009" sourcePoint="N0008" destinationPoint="N0009" length="5629" maxVelocity="1000" maxReverseVelocity="0" locked="false">
+        <pathLayout connectionType="DIRECT" layerId="0"/>
+    </path>
+    <path name="N0009 --- N0011" sourcePoint="N0009" destinationPoint="N0011" length="5629" maxVelocity="1000" maxReverseVelocity="0" locked="false">
+        <pathLayout connectionType="DIRECT" layerId="0"/>
+    </path>
+    <path name="N0010 --- N0011" sourcePoint="N0010" destinationPoint="N0011" length="4302" maxVelocity="1000" maxReverseVelocity="0" locked="false">
+        <pathLayout connectionType="BEZIER" layerId="0">
+            <controlPoint x="449" y="185"/>
+            <controlPoint x="449" y="185"/>
+        </pathLayout>
+    </path>
+    <path name="N0011 --- N0013" sourcePoint="N0011" destinationPoint="N0013" length="6881" maxVelocity="1000" maxReverseVelocity="0" locked="false">
+        <pathLayout connectionType="BEZIER" layerId="0">
+            <controlPoint x="429" y="289"/>
+            <controlPoint x="429" y="289"/>
+        </pathLayout>
+    </path>
+    <path name="N0012 --- N0013" sourcePoint="N0012" destinationPoint="N0013" length="6567" maxVelocity="1000" maxReverseVelocity="0" locked="false">
+        <pathLayout connectionType="DIRECT" layerId="0"/>
+    </path>
+    <path name="N0013 --- N0015" sourcePoint="N0013" destinationPoint="N0015" length="11449" maxVelocity="1000" maxReverseVelocity="0" locked="false">
+        <pathLayout connectionType="BEZIER" layerId="0">
+            <controlPoint x="253" y="287"/>
+            <controlPoint x="213" y="233"/>
+        </pathLayout>
+    </path>
+    <path name="N0013 --- N0018" sourcePoint="N0013" destinationPoint="N0018" length="9381" maxVelocity="1000" maxReverseVelocity="0" locked="false">
+        <pathLayout connectionType="DIRECT" layerId="0"/>
+    </path>
+    <path name="N0013 --- N0057" sourcePoint="N0013" destinationPoint="N0057" length="11638" maxVelocity="1000" maxReverseVelocity="0" locked="false">
+        <pathLayout connectionType="BEZIER" layerId="0">
+            <controlPoint x="280" y="320"/>
+            <controlPoint x="250" y="410"/>
+        </pathLayout>
+    </path>
+    <path name="N0014 --- N0008" sourcePoint="N0014" destinationPoint="N0008" length="5629" maxVelocity="1000" maxReverseVelocity="0" locked="false">
+        <pathLayout connectionType="DIRECT" layerId="0"/>
+    </path>
+    <path name="N0015 --- N0016" sourcePoint="N0015" destinationPoint="N0016" length="9241" maxVelocity="1000" maxReverseVelocity="0" locked="false">
+        <pathLayout connectionType="DIRECT" layerId="0"/>
+    </path>
+    <path name="N0015 --- N0050" sourcePoint="N0015" destinationPoint="N0050" length="9861" maxVelocity="1000" maxReverseVelocity="0" locked="false">
+        <pathLayout connectionType="BEZIER" layerId="0">
+            <controlPoint x="60" y="199"/>
+            <controlPoint x="60" y="199"/>
+        </pathLayout>
+    </path>
+    <path name="N0016 --- N0017" sourcePoint="N0016" destinationPoint="N0017" length="11166" maxVelocity="1000" maxReverseVelocity="0" locked="false">
+        <pathLayout connectionType="BEZIER" layerId="0">
+            <controlPoint x="-126" y="233"/>
+            <controlPoint x="-175" y="288"/>
+        </pathLayout>
+    </path>
+    <path name="N0016 --- N0022" sourcePoint="N0016" destinationPoint="N0022" length="9381" maxVelocity="1000" maxReverseVelocity="0" locked="false">
+        <pathLayout connectionType="DIRECT" layerId="0"/>
+    </path>
+    <path name="N0016 --- N0046" sourcePoint="N0016" destinationPoint="N0046" length="10093" maxVelocity="1000" maxReverseVelocity="0" locked="false">
+        <pathLayout connectionType="BEZIER" layerId="0">
+            <controlPoint x="-101" y="209"/>
+            <controlPoint x="-159" y="153"/>
+        </pathLayout>
+    </path>
+    <path name="N0017 --- S0020" sourcePoint="N0017" destinationPoint="S0020" length="8705" maxVelocity="1000" maxReverseVelocity="0" locked="false">
+        <pathLayout connectionType="BEZIER" layerId="0">
+            <controlPoint x="-293" y="292"/>
+            <controlPoint x="-343" y="250"/>
+        </pathLayout>
+    </path>
+    <path name="N0018 --- Q0019" sourcePoint="N0018" destinationPoint="Q0019" length="9381" maxVelocity="1000" maxReverseVelocity="0" locked="false">
+        <pathLayout connectionType="DIRECT" layerId="0"/>
+    </path>
+    <path name="N0022 --- N0056" sourcePoint="N0022" destinationPoint="N0056" length="8680" maxVelocity="1000" maxReverseVelocity="0" locked="false">
+        <pathLayout connectionType="BEZIER" layerId="0">
+            <controlPoint x="-296" y="209"/>
+            <controlPoint x="-344" y="169"/>
+        </pathLayout>
+    </path>
+    <path name="N0023 --- N0024" sourcePoint="N0023" destinationPoint="N0024" length="4690" maxVelocity="1000" maxReverseVelocity="0" locked="false">
+        <pathLayout connectionType="DIRECT" layerId="0"/>
+    </path>
+    <path name="N0024 --- S0025" sourcePoint="N0024" destinationPoint="S0025" length="4690" maxVelocity="1000" maxReverseVelocity="0" locked="false">
+        <pathLayout connectionType="DIRECT" layerId="0"/>
+    </path>
+    <path name="N0030 --- N0032" sourcePoint="N0030" destinationPoint="N0032" length="6567" maxVelocity="1000" maxReverseVelocity="0" locked="false">
+        <pathLayout connectionType="DIRECT" layerId="0"/>
+    </path>
+    <path name="N0032 --- S0028" sourcePoint="N0032" destinationPoint="S0028" length="4690" maxVelocity="1000" maxReverseVelocity="0" locked="false">
+        <pathLayout connectionType="DIRECT" layerId="0"/>
+    </path>
+    <path name="N0033 --- N0001" sourcePoint="N0033" destinationPoint="N0001" length="6922" maxVelocity="1000" maxReverseVelocity="0" locked="false">
+        <pathLayout connectionType="BEZIER" layerId="0">
+            <controlPoint x="550" y="-287"/>
+            <controlPoint x="550" y="-287"/>
+        </pathLayout>
+    </path>
+    <path name="N0034 --- N0014" sourcePoint="N0034" destinationPoint="N0014" length="8731" maxVelocity="1000" maxReverseVelocity="0" locked="false">
+        <pathLayout connectionType="BEZIER" layerId="0">
+            <controlPoint x="423" y="-211"/>
+            <controlPoint x="423" y="-211"/>
+        </pathLayout>
+    </path>
+    <path name="N0034 --- N0033" sourcePoint="N0034" destinationPoint="N0033" length="9481" maxVelocity="1000" maxReverseVelocity="0" locked="false">
+        <pathLayout connectionType="BEZIER" layerId="0">
+            <controlPoint x="374" y="-231"/>
+            <controlPoint x="408" y="-285"/>
+        </pathLayout>
+    </path>
+    <path name="N0035 --- N0036" sourcePoint="N0035" destinationPoint="N0036" length="5629" maxVelocity="1000" maxReverseVelocity="0" locked="false">
+        <pathLayout connectionType="DIRECT" layerId="0"/>
+    </path>
+    <path name="N0036 --- N0034" sourcePoint="N0036" destinationPoint="N0034" length="6567" maxVelocity="1000" maxReverseVelocity="0" locked="false">
+        <pathLayout connectionType="DIRECT" layerId="0"/>
+    </path>
+    <path name="N0037 --- S0028" sourcePoint="N0037" destinationPoint="S0028" length="7582" maxVelocity="1000" maxReverseVelocity="0" locked="false">
+        <pathLayout connectionType="BEZIER" layerId="0">
+            <controlPoint x="-209" y="-154"/>
+            <controlPoint x="-210" y="-202"/>
+        </pathLayout>
+    </path>
+    <path name="N0038 --- N0037" sourcePoint="N0038" destinationPoint="N0037" length="5629" maxVelocity="1000" maxReverseVelocity="0" locked="false">
+        <pathLayout connectionType="DIRECT" layerId="0"/>
+    </path>
+    <path name="N0039 --- N0040" sourcePoint="N0039" destinationPoint="N0040" length="4690" maxVelocity="1000" maxReverseVelocity="0" locked="false">
+        <pathLayout connectionType="DIRECT" layerId="0"/>
+    </path>
+    <path name="N0040 --- N0041" sourcePoint="N0040" destinationPoint="N0041" length="5629" maxVelocity="1000" maxReverseVelocity="0" locked="false">
+        <pathLayout connectionType="DIRECT" layerId="0"/>
+    </path>
+    <path name="N0041 --- N0035" sourcePoint="N0041" destinationPoint="N0035" length="5734" maxVelocity="1000" maxReverseVelocity="0" locked="false">
+        <pathLayout connectionType="BEZIER" layerId="0">
+            <controlPoint x="15" y="-186"/>
+            <controlPoint x="31" y="-213"/>
+        </pathLayout>
+    </path>
+    <path name="N0042 --- N0039" sourcePoint="N0042" destinationPoint="N0039" length="6567" maxVelocity="1000" maxReverseVelocity="0" locked="false">
+        <pathLayout connectionType="DIRECT" layerId="0"/>
+    </path>
+    <path name="N0043 --- N0052" sourcePoint="N0043" destinationPoint="N0052" length="8443" maxVelocity="1000" maxReverseVelocity="0" locked="false">
+        <pathLayout connectionType="DIRECT" layerId="0"/>
+    </path>
+    <path name="N0044 --- S0047" sourcePoint="N0044" destinationPoint="S0047" length="6881" maxVelocity="1000" maxReverseVelocity="0" locked="false">
+        <pathLayout connectionType="BEZIER" layerId="0">
+            <controlPoint x="209" y="-88"/>
+            <controlPoint x="209" y="-88"/>
+        </pathLayout>
+    </path>
+    <path name="N0045 --- N0016" sourcePoint="N0045" destinationPoint="N0016" length="10170" maxVelocity="1000" maxReverseVelocity="0" locked="false">
+        <pathLayout connectionType="BEZIER" layerId="0">
+            <controlPoint x="79" y="154"/>
+            <controlPoint x="30" y="208"/>
+        </pathLayout>
+    </path>
+    <path name="N0045 --- N0055" sourcePoint="N0045" destinationPoint="N0055" length="8443" maxVelocity="1000" maxReverseVelocity="0" locked="false">
+        <pathLayout connectionType="DIRECT" layerId="0"/>
+    </path>
+    <path name="N0046 --- S0054" sourcePoint="N0046" destinationPoint="S0054" length="6800" maxVelocity="1000" maxReverseVelocity="0" locked="false">
+        <pathLayout connectionType="BEZIER" layerId="0">
+            <controlPoint x="-288" y="127"/>
+            <controlPoint x="-288" y="127"/>
+        </pathLayout>
+    </path>
+    <path name="N0048 --- N0043" sourcePoint="N0048" destinationPoint="N0043" length="6722" maxVelocity="1000" maxReverseVelocity="0" locked="false">
+        <pathLayout connectionType="BEZIER" layerId="0">
+            <controlPoint x="-287" y="-85"/>
+            <controlPoint x="-287" y="-85"/>
+        </pathLayout>
+    </path>
+    <path name="N0049 --- N0038" sourcePoint="N0049" destinationPoint="N0038" length="6882" maxVelocity="1000" maxReverseVelocity="0" locked="false">
+        <pathLayout connectionType="BEZIER" layerId="0">
+            <controlPoint x="30" y="-127"/>
+            <controlPoint x="30" y="-127"/>
+        </pathLayout>
+    </path>
+    <path name="N0050 --- N0051" sourcePoint="N0050" destinationPoint="N0051" length="3752" maxVelocity="1000" maxReverseVelocity="0" locked="false">
+        <pathLayout connectionType="DIRECT" layerId="0"/>
+    </path>
+    <path name="N0051 --- N0049" sourcePoint="N0051" destinationPoint="N0049" length="3752" maxVelocity="1000" maxReverseVelocity="0" locked="false">
+        <pathLayout connectionType="DIRECT" layerId="0"/>
+    </path>
+    <path name="N0052 --- N0044" sourcePoint="N0052" destinationPoint="N0044" length="8443" maxVelocity="1000" maxReverseVelocity="0" locked="false">
+        <pathLayout connectionType="DIRECT" layerId="0"/>
+    </path>
+    <path name="N0055 --- N0046" sourcePoint="N0055" destinationPoint="N0046" length="8443" maxVelocity="1000" maxReverseVelocity="0" locked="false">
+        <pathLayout connectionType="DIRECT" layerId="0"/>
+    </path>
+    <path name="N0056 --- N0023" sourcePoint="N0056" destinationPoint="N0023" length="6882" maxVelocity="1000" maxReverseVelocity="0" locked="false">
+        <pathLayout connectionType="BEZIER" layerId="0">
+            <controlPoint x="-467" y="150"/>
+            <controlPoint x="-467" y="150"/>
+        </pathLayout>
+    </path>
+    <path name="N0057 --- N0058" sourcePoint="N0057" destinationPoint="N0058" length="10000" maxVelocity="1000" maxReverseVelocity="0" locked="false">
+        <peripheralOperation completionRequired="true" executionTrigger="AFTER_ALLOCATION" locationName="Fire door 01" name="Open"/>
+        <peripheralOperation completionRequired="false" executionTrigger="AFTER_MOVEMENT" locationName="Fire door 01" name="Close"/>
+        <pathLayout connectionType="DIRECT" layerId="0"/>
+    </path>
+    <path name="N0058 --- S0059" sourcePoint="N0058" destinationPoint="S0059" length="10000" maxVelocity="1000" maxReverseVelocity="0" locked="false">
+        <pathLayout connectionType="DIRECT" layerId="0"/>
+    </path>
+    <path name="N0060 --- N0061" sourcePoint="N0060" destinationPoint="N0061" length="7211" maxVelocity="1000" maxReverseVelocity="0" locked="false">
+        <pathLayout connectionType="BEZIER" layerId="0">
+            <controlPoint x="-470" y="410"/>
+            <controlPoint x="-470" y="370"/>
+        </pathLayout>
+    </path>
+    <path name="N0061 --- Q0021" sourcePoint="N0061" destinationPoint="Q0021" length="8000" maxVelocity="1000" maxReverseVelocity="0" locked="false">
+        <pathLayout connectionType="DIRECT" layerId="0"/>
+    </path>
+    <path name="Q0019 --- N0017" sourcePoint="Q0019" destinationPoint="N0017" length="9381" maxVelocity="1000" maxReverseVelocity="0" locked="false">
+        <pathLayout connectionType="DIRECT" layerId="0"/>
+    </path>
+    <path name="Q0019 --- N0022" sourcePoint="Q0019" destinationPoint="N0022" length="11062" maxVelocity="1000" maxReverseVelocity="0" locked="false">
+        <pathLayout connectionType="BEZIER" layerId="0">
+            <controlPoint x="-113" y="288"/>
+            <controlPoint x="-169" y="233"/>
+        </pathLayout>
+    </path>
+    <path name="Q0021 --- N0023" sourcePoint="Q0021" destinationPoint="N0023" length="3752" maxVelocity="1000" maxReverseVelocity="0" locked="false">
+        <pathLayout connectionType="DIRECT" layerId="0"/>
+    </path>
+    <path name="Q0026 --- S0027" sourcePoint="Q0026" destinationPoint="S0027" length="6841" maxVelocity="1000" maxReverseVelocity="0" locked="false">
+        <pathLayout connectionType="BEZIER" layerId="0">
+            <controlPoint x="-468" y="-287"/>
+            <controlPoint x="-468" y="-287"/>
+        </pathLayout>
+    </path>
+    <path name="Q0029 --- N0035" sourcePoint="Q0029" destinationPoint="N0035" length="4690" maxVelocity="1000" maxReverseVelocity="0" locked="false">
+        <pathLayout connectionType="DIRECT" layerId="0"/>
+    </path>
+    <path name="Q0053 --- N0045" sourcePoint="Q0053" destinationPoint="N0045" length="6922" maxVelocity="1000" maxReverseVelocity="0" locked="false">
+        <pathLayout connectionType="BEZIER" layerId="0">
+            <controlPoint x="209" y="130"/>
+            <controlPoint x="209" y="130"/>
+        </pathLayout>
+    </path>
+    <path name="S0020 --- Q0021" sourcePoint="S0020" destinationPoint="Q0021" length="6802" maxVelocity="1000" maxReverseVelocity="0" locked="false">
+        <pathLayout connectionType="BEZIER" layerId="0">
+            <controlPoint x="-465" y="230"/>
+            <controlPoint x="-465" y="230"/>
+        </pathLayout>
+    </path>
+    <path name="S0025 --- N0030" sourcePoint="S0025" destinationPoint="N0030" length="7695" maxVelocity="1000" maxReverseVelocity="0" locked="false">
+        <pathLayout connectionType="BEZIER" layerId="0">
+            <controlPoint x="-467" y="-205"/>
+            <controlPoint x="-467" y="-205"/>
+        </pathLayout>
+    </path>
+    <path name="S0025 --- N0042" sourcePoint="S0025" destinationPoint="N0042" length="5992" maxVelocity="1000" maxReverseVelocity="0" locked="false">
+        <pathLayout connectionType="BEZIER" layerId="0">
+            <controlPoint x="-469" y="-169"/>
+            <controlPoint x="-469" y="-169"/>
+        </pathLayout>
+    </path>
+    <path name="S0025 --- Q0026" sourcePoint="S0025" destinationPoint="Q0026" length="4690" maxVelocity="1000" maxReverseVelocity="0" locked="false">
+        <pathLayout connectionType="DIRECT" layerId="0"/>
+    </path>
+    <path name="S0027 --- N0032" sourcePoint="S0027" destinationPoint="N0032" length="8657" maxVelocity="1000" maxReverseVelocity="0" locked="false">
+        <pathLayout connectionType="BEZIER" layerId="0">
+            <controlPoint x="-345" y="-287"/>
+            <controlPoint x="-317" y="-233"/>
+        </pathLayout>
+    </path>
+    <path name="S0028 --- Q0029" sourcePoint="S0028" destinationPoint="Q0029" length="5629" maxVelocity="1000" maxReverseVelocity="0" locked="false">
+        <pathLayout connectionType="DIRECT" layerId="0"/>
+    </path>
+    <path name="S0047 --- Q0053" sourcePoint="S0047" destinationPoint="Q0053" length="3752" maxVelocity="1000" maxReverseVelocity="0" locked="false">
+        <pathLayout connectionType="DIRECT" layerId="0"/>
+    </path>
+    <path name="S0054 --- N0048" sourcePoint="S0054" destinationPoint="N0048" length="3752" maxVelocity="1000" maxReverseVelocity="0" locked="false">
+        <pathLayout connectionType="DIRECT" layerId="0"/>
+    </path>
+    <path name="S0059 --- N0060" sourcePoint="S0059" destinationPoint="N0060" length="8000" maxVelocity="1000" maxReverseVelocity="0" locked="false">
+        <pathLayout connectionType="DIRECT" layerId="0"/>
+    </path>
+
+    <!-- To be filled with vehicles here -->
+<vehicle name="Vehicle-01002" length="1000" energyLevelCritical="30" energyLevelGood="90" energyLevelFullyRecharged="95" energyLevelSufficientlyRecharged="45" maxVelocity="2200" maxReverseVelocity="1000"><property name="loopback:loadOperation" value="Load cargo"/><property name="loopback:unloadOperation" value="Unload cargo"/><property name="tcs:preferredAdapterClass" value="de.tum.ed.fml.OpenTCSWebSocketDriver.WebSocketVehicleCommAdapterFactory"/><vehicleLayout color="#D2A434"/></vehicle><vehicle name="Vehicle-01001" length="1000" energyLevelCritical="30" energyLevelGood="90" energyLevelFullyRecharged="95" energyLevelSufficientlyRecharged="45" maxVelocity="2200" maxReverseVelocity="1000"><property name="loopback:loadOperation" value="Load cargo"/><property name="loopback:unloadOperation" value="Unload cargo"/><property name="tcs:preferredAdapterClass" value="de.tum.ed.fml.OpenTCSWebSocketDriver.WebSocketVehicleCommAdapterFactory"/><vehicleLayout color="#037186"/></vehicle>    
+    <!--#################################-->
+
+    <locationType name="Fire door">
+        <allowedPeripheralOperation name="Close"/>
+        <allowedPeripheralOperation name="Open"/>
+        <property name="tcs:defaultLocationTypeSymbol" value="NONE"/>
+        <locationTypeLayout locationRepresentation="NONE"/>
+    </locationType>
+    <locationType name="Recharge station">
+        <allowedOperation name="CHARGE"/>
+        <allowedOperation name="NOP"/>
+        <property name="tcs:defaultLocationSymbol" value="RECHARGE_GENERIC"/>
+        <property name="tcs:defaultLocationTypeSymbol" value="RECHARGE_GENERIC"/>
+        <locationTypeLayout locationRepresentation="RECHARGE_GENERIC"/>
+    </locationType>
+    <locationType name="Transfer station">
+        <allowedOperation name="Load cargo"/>
+        <allowedOperation name="NOP"/>
+        <allowedOperation name="Unload cargo"/>
+        <property name="tcs:defaultLocationSymbol" value="LOAD_TRANSFER_GENERIC"/>
+        <property name="tcs:defaultLocationTypeSymbol" value="LOAD_TRANSFER_GENERIC"/>
+        <locationTypeLayout locationRepresentation="LOAD_TRANSFER_GENERIC"/>
+    </locationType>
+    <locationType name="Working station">
+        <allowedOperation name="Cut"/>
+        <allowedOperation name="Drill"/>
+        <allowedOperation name="NOP"/>
+        <property name="tcs:defaultLocationSymbol" value="WORKING_GENERIC"/>
+        <property name="tcs:defaultLocationTypeSymbol" value="WORKING_GENERIC"/>
+        <locationTypeLayout locationRepresentation="WORKING_GENERIC"/>
+    </locationType>
+    <location name="Fire door 01" xPosition="3500" yPosition="-21000" zPosition="0" locked="false" type="Fire door">
+        <property name="tcs:defaultLocationSymbol" value="DEFAULT"/>
+        <property name="tcs:loopbackPeripheral" value="Value unknown"/>
+        <locationLayout xPosition="3500" yPosition="-21000" xLabelOffset="-10" yLabelOffset="-20" locationRepresentation="DEFAULT" layerId="0"/>
+    </location>
+    <location name="Goods in north 01" xPosition="-28000" yPosition="11000" zPosition="0" locked="false" type="Transfer station">
+        <link point="Q0026"/>
+        <property name="tcs:defaultLocationSymbol" value="DEFAULT"/>
+        <locationLayout xPosition="-28000" yPosition="11000" xLabelOffset="-10" yLabelOffset="-20" locationRepresentation="DEFAULT" layerId="0"/>
+    </location>
+    <location name="Goods in north 02" xPosition="-28000" yPosition="6000" zPosition="0" locked="false" type="Transfer station">
+        <link point="S0025"/>
+        <property name="tcs:defaultLocationSymbol" value="DEFAULT"/>
+        <locationLayout xPosition="-28000" yPosition="6000" xLabelOffset="-10" yLabelOffset="-20" locationRepresentation="DEFAULT" layerId="0"/>
+    </location>
+    <location name="Goods in south 01" xPosition="-2000" yPosition="-18000" zPosition="0" locked="false" type="Transfer station">
+        <link point="Q0019"/>
+        <property name="tcs:defaultLocationSymbol" value="DEFAULT"/>
+        <locationLayout xPosition="-2000" yPosition="-18000" xLabelOffset="-10" yLabelOffset="-20" locationRepresentation="DEFAULT" layerId="0"/>
+    </location>
+    <location name="Goods in south 02" xPosition="-12000" yPosition="-24000" zPosition="0" locked="false" type="Transfer station">
+        <link point="S0059"/>
+        <property name="tcs:defaultLocationSymbol" value="DEFAULT"/>
+        <locationLayout xPosition="-12000" yPosition="-24000" xLabelOffset="-10" yLabelOffset="-20" locationRepresentation="DEFAULT" layerId="0"/>
+    </location>
+    <location name="Goods out 01" xPosition="-20000" yPosition="-15000" zPosition="0" locked="false" type="Transfer station">
+        <link point="S0020"/>
+        <property name="tcs:defaultLocationSymbol" value="DEFAULT"/>
+        <locationLayout xPosition="-20000" yPosition="-15000" xLabelOffset="-10" yLabelOffset="-20" locationRepresentation="DEFAULT" layerId="0"/>
+    </location>
+    <location name="Goods out 02" xPosition="-28000" yPosition="-8000" zPosition="0" locked="false" type="Transfer station">
+        <link point="Q0021"/>
+        <property name="tcs:defaultLocationSymbol" value="DEFAULT"/>
+        <locationLayout xPosition="-28000" yPosition="-8000" xLabelOffset="-10" yLabelOffset="-20" locationRepresentation="DEFAULT" layerId="0"/>
+    </location>
+    <location name="Recharge 01" xPosition="25000" yPosition="6000" zPosition="0" locked="false" type="Recharge station">
+        <link point="N0002"/>
+        <property name="tcs:defaultLocationSymbol" value="DEFAULT"/>
+        <locationLayout xPosition="25000" yPosition="6000" xLabelOffset="-10" yLabelOffset="-20" locationRepresentation="DEFAULT" layerId="0"/>
+    </location>
+    <location name="Recharge 02" xPosition="25000" yPosition="0" zPosition="0" locked="false" type="Recharge station">
+        <link point="N0004"/>
+        <property name="tcs:defaultLocationSymbol" value="DEFAULT"/>
+        <locationLayout xPosition="25000" yPosition="0" xLabelOffset="-10" yLabelOffset="-20" locationRepresentation="DEFAULT" layerId="0"/>
+    </location>
+    <location name="Recharge 03" xPosition="25000" yPosition="-6000" zPosition="0" locked="false" type="Recharge station">
+        <link point="N0006"/>
+        <property name="tcs:defaultLocationSymbol" value="DEFAULT"/>
+        <locationLayout xPosition="25000" yPosition="-6000" xLabelOffset="-10" yLabelOffset="-20" locationRepresentation="DEFAULT" layerId="0"/>
+    </location>
+    <location name="Recharge 04" xPosition="25000" yPosition="-12000" zPosition="0" locked="false" type="Recharge station">
+        <link point="N0010"/>
+        <property name="tcs:defaultLocationSymbol" value="DEFAULT"/>
+        <locationLayout xPosition="25000" yPosition="-12000" xLabelOffset="-10" yLabelOffset="-20" locationRepresentation="DEFAULT" layerId="0"/>
+    </location>
+    <location name="Storage 01" xPosition="-8000" yPosition="14000" zPosition="0" locked="false" type="Transfer station">
+        <link point="S0028"/>
+        <property name="tcs:defaultLocationSymbol" value="DEFAULT"/>
+        <locationLayout xPosition="-8000" yPosition="14000" xLabelOffset="-10" yLabelOffset="-20" locationRepresentation="DEFAULT" layerId="0"/>
+    </location>
+    <location name="Storage 02" xPosition="-2000" yPosition="14000" zPosition="0" locked="false" type="Transfer station">
+        <link point="Q0029"/>
+        <property name="tcs:defaultLocationSymbol" value="DEFAULT"/>
+        <locationLayout xPosition="-2000" yPosition="14000" xLabelOffset="-10" yLabelOffset="-20" locationRepresentation="DEFAULT" layerId="0"/>
+    </location>
+    <location name="Working station 01" xPosition="-11000" yPosition="-3000" zPosition="0" locked="false" type="Working station">
+        <link point="S0054"/>
+        <property name="tcs:defaultLocationSymbol" value="DEFAULT"/>
+        <locationLayout xPosition="-11000" yPosition="-3000" xLabelOffset="-10" yLabelOffset="-20" locationRepresentation="DEFAULT" layerId="0"/>
+    </location>
+    <location name="Working station 02" xPosition="15000" yPosition="1000" zPosition="0" locked="false" type="Working station">
+        <link point="S0047"/>
+        <property name="tcs:defaultLocationSymbol" value="DEFAULT"/>
+        <locationLayout xPosition="15000" yPosition="1000" xLabelOffset="-10" yLabelOffset="-20" locationRepresentation="DEFAULT" layerId="0"/>
+    </location>
+    <location name="Working station 03" xPosition="15000" yPosition="-3000" zPosition="0" locked="false" type="Working station">
+        <link point="Q0053"/>
+        <property name="tcs:defaultLocationSymbol" value="DEFAULT"/>
+        <locationLayout xPosition="15000" yPosition="-3000" xLabelOffset="-10" yLabelOffset="-20" locationRepresentation="DEFAULT" layerId="0"/>
+    </location>
+    <block name="Block-0001" type="SINGLE_VEHICLE_ONLY">
+        <member name="N0016 --- N0017"/>
+        <member name="Q0019 --- N0022"/>
+        <blockLayout color="#FF0000"/>
+    </block>
+    <block name="Block-0002" type="SINGLE_VEHICLE_ONLY">
+        <member name="N0037 --- S0028"/>
+        <member name="N0039 --- N0040"/>
+        <blockLayout color="#0000FF"/>
+    </block>
+    <block name="Block-0003" type="SINGLE_VEHICLE_ONLY">
+        <member name="N0049 --- N0038"/>
+        <member name="N0052 --- N0044"/>
+        <blockLayout color="#00CC00"/>
+    </block>
+    <block name="Block-0004" type="SINGLE_VEHICLE_ONLY">
+        <member name="N0015 --- N0050"/>
+        <member name="N0045 --- N0016"/>
+        <member name="N0045 --- N0055"/>
+        <blockLayout color="#0099FF"/>
+    </block>
+    <visualLayout name="VLayout-01" scaleX="50.0" scaleY="50.0">
+        <layer id="0" ordinal="0" visible="true" name="Default layer" groupId="0"/>
+        <layerGroup id="0" name="Default layer group" visible="true"/>
+    </visualLayout>
+    <property name="tcs:modelFileLastModified" value="2023-11-13T06:40:17Z"/>
+</model>
